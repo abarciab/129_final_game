@@ -95,6 +95,7 @@ public class PlayerFighting : MonoBehaviour
 
         var fighting = victim.GetComponent<PlayerFighting>();
         if (!WillHit(fighting)) {
+            swordAnim.SetTrigger("Deflected");
             StartCoroutine(StunPlayer(blockStunTime));
             AudioManager.instance.PlaySound(defend, gameObject);
             return;

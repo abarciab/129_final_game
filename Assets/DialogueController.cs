@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 public class DialogueController : MonoBehaviour {
@@ -42,8 +43,13 @@ public class DialogueController : MonoBehaviour {
 
     [SerializeField] List<Chapter> chapters = new List<Chapter>();
     [SerializeField] float waitTime, textSpeed = 0.01f;
-    [SerializeField] Chapter currChap;
-
+    public Chapter currChap;
+    List<Chapter.Line> currentLines = new List<Chapter.Line>();
+    bool eliSpeaking;
+    [SerializeField] TextMeshProUGUI eliText, MaxwellText;
+    [SerializeField] CanvasGroup eliGroup, maxwellGroup;
+    public int chapID = -1;
+    
     private void OnValidate()
     {
         foreach (var chap in chapters) {
@@ -51,15 +57,59 @@ public class DialogueController : MonoBehaviour {
         }
     }
 
-
-    private void OnEnable()
-    {
-        
+    void Init() {
+        currChap = chapters[0];
+        currentLines = currChap.afterFight;
+        chapID = -1;
     }
 
-    public void NextOrSkip()
-    {
+    private void Update() {
+        if (Input.anyKeyDown) NextOrSkip();
+    }
 
+    public void StartDialogue() {
+        if (currChap == null || chapID == -1) Init();
+        gameObject.SetActive(true);
+        DisplayNext();
+    }
+
+    public bool StartDialogue(Chapter.Outcome eliStatus) {
+        Chapter newChap = null;
+        for (int i = 0; i < chapters.Count; i++) {
+            if (chapters[i].ID == chapID && chapters[i].playIfEli == eliStatus) newChap = chapters[i];
+        }
+        if (newChap == null) {
+            GameManager.instance.StartFight();
+            return false;
+        }
+        currChap = newChap;
+        currentLines = currChap.afterFight;
+        StartDialogue();
+        return true;
+    }
+
+    bool DisplayNext() {
+        if (currentLines.Count == 0) {
+            if (currChap.beforeNextFight.Count == 0) return false;
+            currentLines = currChap.beforeNextFight;
+        }
+
+        var line = currentLines[0];
+        eliSpeaking = (line.speaker == Chapter.Character.Eil);
+
+        eliGroup.alpha = eliSpeaking ? 1 : 0.4f;
+        maxwellGroup.alpha = eliSpeaking ? 0.4f : 1;
+        if (eliSpeaking) eliText.text = line.line;
+        else MaxwellText.text = line.line;
+        currentLines.RemoveAt(0);
+        return true;
+    }
+
+    public void NextOrSkip() {
+        if (DisplayNext()) return;
+
+        chapID = currChap.nextChapterID;
+        GameManager.instance.StartFight();
     }
 
 }

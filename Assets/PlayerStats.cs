@@ -11,6 +11,8 @@ public class PlayerStats : MonoBehaviour
     bool invincible;
     [SerializeField] int numFlashing = 25;
     public SpriteRenderer sRend;
+    [SerializeField] Vector3 knockBack;
+
 
     [HideInInspector] public Sprite idleSprite, attackSprite, hurtSprite;
 
@@ -22,6 +24,10 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.AddPlayer(this);
         sRend.sprite = idleSprite;
         if (idleSprite.name.Contains("2")) sRend.transform.Rotate(0, 180, 0);
+        _health = maxHealth;
+    }
+
+    public void FullHeal() {
         _health = maxHealth;
     }
 
@@ -39,6 +45,10 @@ public class PlayerStats : MonoBehaviour
 
         if (health <= 0) Die();
         else StartCoroutine(Invincible());
+
+        var kb = knockBack;
+        kb.x = kb.x * (Mathf.Abs(transform.eulerAngles.y) > 01f ? -1 : 1);
+        transform.position += kb;
     }
 
     void Die()
