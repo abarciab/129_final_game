@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] DialogueController dialogue;
 
     List<PlayerStats> players = new List<PlayerStats>();
+    List<PlayerMovement> playerMoves = new List<PlayerMovement>();
 
     [Header("player sprites")]
     [SerializeField] Sprite p1Idle;
@@ -23,6 +24,8 @@ public class GameManager : MonoBehaviour
     public void AddPlayer(PlayerStats newPlayer)
     {
         players.Add(newPlayer);
+        playerMoves.Add(newPlayer.GetComponent<PlayerMovement>());
+
         bool p1 = players.Count == 1;
         var UI =  p1 ? player1UI : player2UI;
         UI.player = newPlayer;
@@ -45,18 +48,17 @@ public class GameManager : MonoBehaviour
 
     public void PlayerDie(PlayerStats victim)
     {
-        DialogueController.Chapter.Outcome outcome = victim == players[0] ? DialogueController.Chapter.Outcome.Wins : DialogueController.Chapter.Outcome.Loses;
-
         player1UI.gameObject.SetActive(false);
         player2UI.gameObject.SetActive(false);
-        foreach (var p in players) p.gameObject.SetActive(false);
+        foreach (var m in playerMoves) m.enabled = false;
 
+        DialogueController.Chapter.Outcome outcome = victim == players[0] ? DialogueController.Chapter.Outcome.Wins : DialogueController.Chapter.Outcome.Loses;
         if (dialogue.StartDialogue(outcome)) return;
-        
         SceneManager.LoadScene(0);
     }
 
     public void StartFight() {
+        foreach (var m in playerMoves) m.enabled = true;
         foreach (var p in players) {
             p.GetComponent<PlayerMovement>().stopped = false;
             p.FullHeal();
