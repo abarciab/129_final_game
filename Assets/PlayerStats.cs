@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,10 +9,12 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float _health, iFrameTime;
     public float health { get { return _health; } set { SetHealth(value); } }
     public float maxHealth;
-    bool invincible;
+    [HideInInspector] public bool invincible;
     [SerializeField] int numFlashing = 25;
     public SpriteRenderer sRend;
     [SerializeField] Vector3 knockBack;
+    [SerializeField] TextMeshProUGUI reactionText;
+    [HideInInspector] public List<string> reactions;
 
 
     [HideInInspector] public Sprite idleSprite, attackSprite, hurtSprite;
@@ -25,6 +28,11 @@ public class PlayerStats : MonoBehaviour
         sRend.sprite = idleSprite;
         if (idleSprite.name.Contains("2")) sRend.transform.Rotate(0, 180, 0);
         _health = maxHealth;
+    }
+
+    public void UpdateSprite()
+    {
+        sRend.sprite = idleSprite;
     }
 
     public void FullHeal() {
@@ -49,6 +57,10 @@ public class PlayerStats : MonoBehaviour
         var kb = knockBack;
         kb.x = kb.x * (Mathf.Abs(transform.eulerAngles.y) > 01f ? -1 : 1);
         transform.position += kb;
+
+        reactionText.gameObject.SetActive(false);
+        reactionText.text = reactions[Random.Range(0, reactions.Count)];
+        reactionText.gameObject.SetActive(true);
     }
 
     void Die()

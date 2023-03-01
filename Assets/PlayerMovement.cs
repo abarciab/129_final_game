@@ -10,13 +10,19 @@ public class PlayerMovement : MonoBehaviour {
     Vector2 inputDir;
     Rigidbody2D rb;
 
-    [Header("Jump")]
+    [Header("Jumping")]
     [SerializeField] Vector2 groundCheckOffset;
     [SerializeField] float groundCheckRadius, jumpForce, jumpInputWindow, maxJumpSpeed, maxJumpUpTime;
     [SerializeField] string groundTag = "Ground";
-    float timeSinceJumpPressed = Mathf.Infinity, jumpUpTime;
+    float timeSinceJumpPressed = Mathf.Infinity, jumpUpTime, timeSinceDashed;
     bool jumpButtonDown, jumping, grounded;
     public bool stopped;
+
+    [Header("Dashing")]
+    [SerializeField] float dashSpeed;
+    [SerializeField] float dashTime, dashCooldown;
+    [SerializeField] public bool canDash;
+    bool dashing;
 
     [Header("sfx")]
     [SerializeField] AudioSource source;
@@ -31,6 +37,35 @@ public class PlayerMovement : MonoBehaviour {
         if (ctx.canceled) { timeSinceJumpPressed = Mathf.Infinity; jumpButtonDown = false; jumping = false;}
     }
 
+    public void PressDash(InputAction.CallbackContext ctx)
+    {
+        if (!canDash || dashing || timeSinceDashed < dashCooldown || !ctx.started || !GameManager.instance.fighting) return;
+        Dash();
+    }
+    void Dash()
+    {
+        timeSinceDashed = 0;
+        StopAllCoroutines();
+        StartCoroutine(DashCoroutine());
+    }
+
+    IEnumerator DashCoroutine()
+    {
+        float time = 0;
+        dashing = true;
+        var dir = transform.right;
+        if (Mathf.Abs(rb.velocity.x) > 0.01f) dir = inputDir;
+        dir.y = 0;
+
+        while (time < dashTime) {
+            rb.velocity = dir.normalized * dashSpeed;    
+            time += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        dashing = false;
+    }
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -39,9 +74,12 @@ public class PlayerMovement : MonoBehaviour {
 
     private void Update()
     {
+        timeSinceDashed += Time.deltaTime;
         timeSinceJumpPressed += Time.deltaTime;
         if (jumping) jumpUpTime += Time.deltaTime;
-        if (stopped) return;
+        GetComponent<PlayerFighting>().enabled = !stopped;
+        
+        if (stopped || dashing) return;
 
         MoveLeftRight();
         DoJump();   

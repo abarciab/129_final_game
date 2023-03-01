@@ -87,11 +87,15 @@ public class DialogueController : MonoBehaviour {
         StartDialogue();
         return true;
     }
+    bool startedCoroutine;
 
     bool DisplayNext() {
+        if (startedCoroutine) return true;
+
         if (currentLines.Count == 0) {
             if (currChap.beforeNextFight.Count == 0) return false;
-            currentLines = currChap.beforeNextFight;
+            StartCoroutine(SwitchToNextFIght());
+            return true;
         }
 
         var line = currentLines[0];
@@ -103,6 +107,17 @@ public class DialogueController : MonoBehaviour {
         else MaxwellText.text = line.line;
         currentLines.RemoveAt(0);
         return true;
+    }
+
+    IEnumerator SwitchToNextFIght()
+    {
+        startedCoroutine = true;
+        yield return new WaitForSeconds(2);
+
+        GameManager.instance.background.sprite = GameManager.instance.backgroundSprites[1];
+        //GetComponent<PlayerStats>().idleSprite = GameManager.instance.
+        currentLines = currChap.beforeNextFight;
+        startedCoroutine = false;
     }
 
     public void NextOrSkip() {

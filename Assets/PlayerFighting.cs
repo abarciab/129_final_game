@@ -24,22 +24,24 @@ public class PlayerFighting : MonoBehaviour
 
     public void PressNormalAttack(InputAction.CallbackContext ctx)
     {
-        if (!ctx.started || !stabDefend) return;
+        if (!ctx.started || !stabDefend || !GameManager.instance.fighting) return;
 
         Switch(1);
     }
 
+    
+
     public void PressHeavyAttack(InputAction.CallbackContext ctx)
     {
-        if (!ctx.started || stabDefend) return;
+    if (!ctx.started || stabDefend || !GameManager.instance.fighting) return;
 
-        Switch(0);
+    Switch(0);
     }
 
     public void PressStabDefend(InputAction.CallbackContext ctx)
     {
         return;
-        if (ctx.started) stabDefend = true;
+        if (ctx.started && GameManager.instance.fighting) stabDefend = true;
     }
 
     public void PressSlashDefend(InputAction.CallbackContext ctx)
@@ -50,11 +52,13 @@ public class PlayerFighting : MonoBehaviour
 
     public void PressAttack(InputAction.CallbackContext ctx)
     {
-        if (ctx.started) StartAttack();
+        if (ctx.started && GameManager.instance.fighting) StartAttack();
     }
+
 
     void Switch(int type)
     {
+        if (!GameManager.instance.fighting) return;
         stabDefend = type == 1 ? false : true;
         StartCoroutine(StunPlayer(switchStunTime));
         AudioManager.instance.PlaySound(6, gameObject);

@@ -480,9 +480,49 @@ MonoBehaviour:
     - name: "Maxwell: Huh-? Hey! You didn\u2019t count down! Get back here!"
       speaker: 1
       line: "Huh-? Hey! You didn\u2019t count down! Get back here!"
-    beforeNextFight: []
+    beforeNextFight:
+    - name: 'Maxwell: Good morning.'
+      speaker: 1
+      line: Good morning.
+    - name: 'Eil: Yawn... hey, mornin''.'
+      speaker: 0
+      line: Yawn... hey, mornin'.
+    - name: 'Maxwell: How was the three laps around the mess hall?'
+      speaker: 1
+      line: How was the three laps around the mess hall?
+    - name: 'Eil: Shut up. Sleeping in five more minutes never hurt anybody, don''t
+        see why there''s gotta be such a huge punishment for it.'
+      speaker: 0
+      line: Shut up. Sleeping in five more minutes never hurt anybody, don't see
+        why there's gotta be such a huge punishment for it.
+    - name: 'Maxwell: Rules are rules.'
+      speaker: 1
+      line: Rules are rules.
+    - name: 'Maxwell: You got enough energy for the rest of the day? We''re sparring
+        today, remember? Hope you got your full eight hours of sleep.'
+      speaker: 1
+      line: You got enough energy for the rest of the day? We're sparring today,
+        remember? Hope you got your full eight hours of sleep.
+    - name: 'Eil: Mhm. I remember. How could I forget? Today''s the day I''m gonna
+        kick your butt.'
+      speaker: 0
+      line: Mhm. I remember. How could I forget? Today's the day I'm gonna kick your
+        butt.
+    - name: 'Maxwell: Ha, ha. Very funny. We''re just practicing the footwork we
+        learned the other day, I don''t think its going to be actual sparring. '
+      speaker: 1
+      line: 'Ha, ha. Very funny. We''re just practicing the footwork we learned the
+        other day, I don''t think its going to be actual sparring. '
+    - name: 'Eil: Sure. Everyone else can practice their footwork. Me and you are
+        gonna fight for real.'
+      speaker: 0
+      line: Sure. Everyone else can practice their footwork. Me and you are gonna
+        fight for real.
+    - name: 'Maxwell: Huh? Fight for real? What are you- hey, stop it!- '
+      speaker: 1
+      line: 'Huh? Fight for real? What are you- hey, stop it!- '
     nextChapterID: 1
-  - name: '0: if Eli Wins -> 1'
+  - name: '0: if Eli Wins -> 2'
     ID: 0
     playIfEli: 0
     afterFight:
@@ -503,33 +543,452 @@ MonoBehaviour:
     - name: 'Maxwell: I thought you were gonna try to join too.'
       speaker: 1
       line: I thought you were gonna try to join too.
-    - name: "Eil: Well, yeah. But I\u2019m not gonna get smacked. I\u2019m gonna
-        be the best."
+    - name: "Eil: I\u2019ve\u2026 changed my mind! I don\u2019t need any lame academy.
+        I\u2019m gonna get twice as good as you without all the fancy fart stuff."
       speaker: 0
-      line: "Well, yeah. But I\u2019m not gonna get smacked. I\u2019m gonna be the
-        best."
-    - name: "Maxwell: Yeah, well, you\u2019ll still get in trouble for actually hurting
-        people when they\u2019re practicing."
+      line: "I\u2019ve\u2026 changed my mind! I don\u2019t need any lame academy.
+        I\u2019m gonna get twice as good as you without all the fancy fart stuff."
+    - name: "Maxwell: Whaaat\u2026 then I\u2019m gonna be all alone."
       speaker: 1
-      line: "Yeah, well, you\u2019ll still get in trouble for actually hurting people
-        when they\u2019re practicing."
-    - name: "Eil: \u2026 "
+      line: "Whaaat\u2026 then I\u2019m gonna be all alone."
+    - name: "Eil: You can hang out with the other royal goobers. Go eat caviar and..
+        Uh\u2026 other rich people food."
       speaker: 0
-      line: "\u2026 "
+      line: "You can hang out with the other royal goobers. Go eat caviar and.. Uh\u2026
+        other rich people food."
+    - name: "Maxwell: I don\u2019t wanna eat rich people food! I wanna hang out with
+        you. Even if you\u2019re not a royal goober."
+      speaker: 1
+      line: "I don\u2019t wanna eat rich people food! I wanna hang out with you.
+        Even if you\u2019re not a royal goober."
+    - name: "Eil: \u2026"
+      speaker: 0
+      line: "\u2026"
     - name: 'Eil: Whatever. I wanna go catch frogs.'
       speaker: 0
       line: Whatever. I wanna go catch frogs.
     - name: 'Maxwell: Hey! Wait for me!'
       speaker: 1
       line: Hey! Wait for me!
+    beforeNextFight:
+    - name: 'Eil: Alright, you ready?'
+      speaker: 0
+      line: Alright, you ready?
+    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
+        you?'
+      speaker: 1
+      line: Aw, cmon, man... Do we always have to spar every time I see you?
+    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      speaker: 0
+      line: 'What''s wrong? Scared you''ll lose? '
+    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
+        per month.'
+      speaker: 1
+      line: No, its not that. You know I only get a few days off of training per
+        month.
+    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
+        of the stuff I already spend every day doing. '
+      speaker: 1
+      line: 'I want to spend my time hanging out with you. Not doing more of the
+        stuff I already spend every day doing. '
+    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
+        pants school is a total scam first. '
+      speaker: 0
+      line: 'Well, we can do all that. I just have to prove that your fancy pants
+        school is a total scam first. '
+    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
+        pants school, right? '
+      speaker: 1
+      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
+        right? '
+    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
+        to taste defeat!'
+      speaker: 0
+      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
+        taste defeat!
+    nextChapterID: 2
+  - name: '1: if Eli Wins -> 3'
+    ID: 1
+    playIfEli: 0
+    afterFight:
+    - name: 'Maxwell: Ow- stop, stop!'
+      speaker: 1
+      line: Ow- stop, stop!
+    - name: 'Eil: What- pick your sword up, we aren''t finished!'
+      speaker: 0
+      line: What- pick your sword up, we aren't finished!
+    - name: 'Maxwell: Get away from me! You''re hurting me for real!'
+      speaker: 1
+      line: Get away from me! You're hurting me for real!
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: ... I''m sorry. I didn''t mean to push you that hard. '
+      speaker: 1
+      line: '... I''m sorry. I didn''t mean to push you that hard. '
+    - name: 'Eil: Don''t give me that face! You''re looking at me like you think
+        I''m some sort of monster!'
+      speaker: 0
+      line: Don't give me that face! You're looking at me like you think I'm some
+        sort of monster!
+    - name: 'Maxwell: I think you don''t know your own strength sometimes! Eli, I''m
+        bleeding-'
+      speaker: 1
+      line: I think you don't know your own strength sometimes! Eli, I'm bleeding-
+    - name: 'Eil: Yeah? Did you think this would be sunshine and rainbows? That you''d
+        never get hurt being a member of the Royal Guard?'
+      speaker: 0
+      line: Yeah? Did you think this would be sunshine and rainbows? That you'd never
+        get hurt being a member of the Royal Guard?
+    - name: 'Maxwell: No! Of course not. I just didn''t think that the person hurting
+        me would be my friend. '
+      speaker: 1
+      line: 'No! Of course not. I just didn''t think that the person hurting me would
+        be my friend. '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: You''re... Eli, you''re my friend. But you''re out of control.
+        You''re constantly hurting people in training.'
+      speaker: 1
+      line: You're... Eli, you're my friend. But you're out of control. You're constantly
+        hurting people in training.
+    - name: 'Eil: They should be better prepared. Nobody''s going to pull their punches
+        in the real world.'
+      speaker: 0
+      line: They should be better prepared. Nobody's going to pull their punches
+        in the real world.
+    - name: 'Maxwell: Do you hear yourself? If you can''t control yourself in a fight,
+        you''re going to get kicked out.'
+      speaker: 1
+      line: Do you hear yourself? If you can't control yourself in a fight, you're
+        going to get kicked out.
+    - name: 'Eil: Well. Maybe I don''t belong here then. '
+      speaker: 0
+      line: 'Well. Maybe I don''t belong here then. '
+    - name: 'Maxwell: That''s not what I meant-'
+      speaker: 1
+      line: That's not what I meant-
+    - name: 'Eil: No. You all are only holding me back. I need to get out of here.'
+      speaker: 0
+      line: No. You all are only holding me back. I need to get out of here.
+    - name: 'Maxwell: Eli- ouch, wait! Where are you going?'
+      speaker: 1
+      line: Eli- ouch, wait! Where are you going?
     beforeNextFight: []
-    nextChapterID: 1
+    nextChapterID: 3
+  - name: '1: if Eli Loses -> 4'
+    ID: 1
+    playIfEli: 1
+    afterFight:
+    - name: 'Maxwell: Enough. Stand down.'
+      speaker: 1
+      line: Enough. Stand down.
+    - name: 'Eil: GRAH, why can I never beat you?'
+      speaker: 0
+      line: GRAH, why can I never beat you?
+    - name: 'Maxwell: It''s not about beating me. It''s about your own personal journey
+        of growth, being better than you were yesterday.'
+      speaker: 1
+      line: It's not about beating me. It's about your own personal journey of growth,
+        being better than you were yesterday.
+    - name: 'Eil: Uhg, thats exactly the sort of pretentious garbage I knew you''d
+        say. You don''t know what its like to come from nothing- you''ve had every
+        single advantage your entire life.'
+      speaker: 0
+      line: Uhg, thats exactly the sort of pretentious garbage I knew you'd say.
+        You don't know what its like to come from nothing- you've had every single
+        advantage your entire life.
+    - name: 'Maxwell: ... Eli, what''s all this about? You''ve never acted like this
+        before.'
+      speaker: 1
+      line: ... Eli, what's all this about? You've never acted like this before.
+    - name: 'Eil: It doesn''t matter. A traveler from Redcliff came through the other
+        day. He said I have skills. I''m going to join their guard instead the second
+        I can.'
+      speaker: 0
+      line: It doesn't matter. A traveler from Redcliff came through the other day.
+        He said I have skills. I'm going to join their guard instead the second I
+        can.
+    - name: 'Maxwell: Redcliff? Eli, haven''t you heard that they''re planning on
+        going to war with us?'
+      speaker: 1
+      line: Redcliff? Eli, haven't you heard that they're planning on going to war
+        with us?
+    - name: 'Eil: That''s just a rumor and you know it. I''d rather go live somewhere
+        else where my talent is appreciated instead of living in your shadow for
+        the rest of my life.'
+      speaker: 0
+      line: That's just a rumor and you know it. I'd rather go live somewhere else
+        where my talent is appreciated instead of living in your shadow for the rest
+        of my life.
+    - name: 'Maxwell: Eli-'
+      speaker: 1
+      line: Eli-
+    - name: 'Eil: I''ve gotten more recognition from a random traveler than I have
+        in all my years at this dumb academy. There''s no reason for me to stay.'
+      speaker: 0
+      line: I've gotten more recognition from a random traveler than I have in all
+        my years at this dumb academy. There's no reason for me to stay.
+    - name: 'Maxwell: Eli, lets talk about this-'
+      speaker: 1
+      line: Eli, lets talk about this-
+    - name: 'Eil: No. You''re never going to understand. I''m packing my things and
+        leaving today. I''m over it.'
+      speaker: 0
+      line: No. You're never going to understand. I'm packing my things and leaving
+        today. I'm over it.
+    - name: 'Maxwell: Eli, come back-!
+
+'
+      speaker: 1
+      line: 'Eli, come back-!
+
+'
+    beforeNextFight: []
+    nextChapterID: 4
+  - name: '2: if Eli Wins -> 5'
+    ID: 2
+    playIfEli: 0
+    afterFight:
+    - name: 'Eil: Haha! I think I can pretty confidently call that another win for
+        team Eli.'
+      speaker: 0
+      line: Haha! I think I can pretty confidently call that another win for team
+        Eli.
+    - name: 'Maxwell: Yeah, yeah. You really ought to sign up for the Royal Guard
+        with skills like that. '
+      speaker: 1
+      line: 'Yeah, yeah. You really ought to sign up for the Royal Guard with skills
+        like that. '
+    - name: 'Eil: I''m not trying to be a part of the guard. I''m trying to lead
+        it. '
+      speaker: 0
+      line: 'I''m not trying to be a part of the guard. I''m trying to lead it. '
+    - name: 'Maxwell: ... Huh?'
+      speaker: 1
+      line: ... Huh?
+    - name: 'Maxwell: What are you talking about? The Royal Guards answer to the
+        king. '
+      speaker: 1
+      line: 'What are you talking about? The Royal Guards answer to the king. '
+    - name: 'Maxwell: Pfft. You''re not seriously suggesting you''re going to become
+        king, are you?'
+      speaker: 1
+      line: Pfft. You're not seriously suggesting you're going to become king, are
+        you?
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Eil: ... I could do it. '
+      speaker: 0
+      line: '... I could do it. '
+    - name: 'Maxwell: ... Eli, you''re not...'
+      speaker: 1
+      line: ... Eli, you're not...
+    - name: 'Eil: He''s an old piece of work, Maxwell. Our city stays the same while
+        the others are reaching out and conquering their neighbors. This kingdom
+        needs a stronger leader. '
+      speaker: 0
+      line: 'He''s an old piece of work, Maxwell. Our city stays the same while the
+        others are reaching out and conquering their neighbors. This kingdom needs
+        a stronger leader. '
+    - name: 'Maxwell: Eli, what you''re saying is treason. I could report you for
+        suggesting that kind of thing.'
+      speaker: 1
+      line: Eli, what you're saying is treason. I could report you for suggesting
+        that kind of thing.
+    - name: 'Maxwell: Please tell me you aren''t serious. '
+      speaker: 1
+      line: 'Please tell me you aren''t serious. '
+    - name: 'Eil: I am. You could help me do it.'
+      speaker: 0
+      line: I am. You could help me do it.
+    - name: 'Maxwell: What!? No- Eli, where did you get this idea in your head? It''s
+        insane!'
+      speaker: 1
+      line: What!? No- Eli, where did you get this idea in your head? It's insane!
+    - name: 'Eil: You won''t help me?'
+      speaker: 0
+      line: You won't help me?
+    - name: 'Maxwell: No! Will you just listen-'
+      speaker: 1
+      line: No! Will you just listen-
+    - name: 'Eil: Fine. I''ll warn you now. If you won''t be on my side, stay out
+        of my way.'
+      speaker: 0
+      line: Fine. I'll warn you now. If you won't be on my side, stay out of my way.
+    - name: 'Maxwell: Where are you going?'
+      speaker: 1
+      line: Where are you going?
+    - name: 'Maxwell: Eli, come back, you''re making a mistake!...
+
+'
+      speaker: 1
+      line: 'Eli, come back, you''re making a mistake!...
+
+'
+    beforeNextFight:
+    - name: 'Eil: Alright, you ready?'
+      speaker: 0
+      line: Alright, you ready?
+    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
+        you?'
+      speaker: 1
+      line: Aw, cmon, man... Do we always have to spar every time I see you?
+    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      speaker: 0
+      line: 'What''s wrong? Scared you''ll lose? '
+    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
+        per month.'
+      speaker: 1
+      line: No, its not that. You know I only get a few days off of training per
+        month.
+    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
+        of the stuff I already spend every day doing. '
+      speaker: 1
+      line: 'I want to spend my time hanging out with you. Not doing more of the
+        stuff I already spend every day doing. '
+    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
+        pants school is a total scam first. '
+      speaker: 0
+      line: 'Well, we can do all that. I just have to prove that your fancy pants
+        school is a total scam first. '
+    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
+        pants school, right? '
+      speaker: 1
+      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
+        right? '
+    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
+        to taste defeat!'
+      speaker: 0
+      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
+        taste defeat!
+    nextChapterID: 5
+  - name: '2: if Eli Loses -> 6'
+    ID: 2
+    playIfEli: 1
+    afterFight:
+    - name: 'Maxwell: Eli- stop! That''s it. I''m not going to keep fighting you.'
+      speaker: 1
+      line: Eli- stop! That's it. I'm not going to keep fighting you.
+    - name: 'Eil: Cmon! I almost had you!!!'
+      speaker: 0
+      line: Cmon! I almost had you!!!
+    - name: 'Maxwell: You- Eli, you''re bleeding. I don''t want to hurt you for real.
+        Put your sword down.'
+      speaker: 1
+      line: You- Eli, you're bleeding. I don't want to hurt you for real. Put your
+        sword down.
+    - name: 'Eil: ... Just scared ''cause you know I''d win if it was a fight to
+        the death.'
+      speaker: 0
+      line: ... Just scared 'cause you know I'd win if it was a fight to the death.
+    - name: 'Maxwell: A fight to the... what are you talking about? It''s just a
+        sparring match. You''re making it a big deal. '
+      speaker: 1
+      line: 'A fight to the... what are you talking about? It''s just a sparring
+        match. You''re making it a big deal. '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: You have good form. If you''d just try out for the guard, I''m
+        sure you''d get in. Then you could... beat me, or whatever you''re trying
+        to do. '
+      speaker: 1
+      line: 'You have good form. If you''d just try out for the guard, I''m sure
+        you''d get in. Then you could... beat me, or whatever you''re trying to do. '
+    - name: 'Eil: What do you not understand? I''m doing just FINE by myself. I don''t
+        need a stupid government worker telling me how to swing a sword. '
+      speaker: 0
+      line: 'What do you not understand? I''m doing just FINE by myself. I don''t
+        need a stupid government worker telling me how to swing a sword. '
+    - name: 'Maxwell: Well, it''s more than that. Working with the Royal Guard lands
+        you a pretty stable job too. So, maybe you''d be putting up with some stuff
+        for a while, but then you''d be set for life.'
+      speaker: 1
+      line: Well, it's more than that. Working with the Royal Guard lands you a pretty
+        stable job too. So, maybe you'd be putting up with some stuff for a while,
+        but then you'd be set for life.
+    - name: 'Eil: Nuh uh. I''m becoming a blade for hire.'
+      speaker: 0
+      line: Nuh uh. I'm becoming a blade for hire.
+    - name: 'Maxwell: Sounds dangerous.'
+      speaker: 1
+      line: Sounds dangerous.
+    - name: 'Eil: Danger is what I''m all about. Being in the middle of the action
+        is a better teacher than any of those old farts at the academy. '
+      speaker: 0
+      line: 'Danger is what I''m all about. Being in the middle of the action is
+        a better teacher than any of those old farts at the academy. '
+    - name: 'Maxwell: Well, good luck with that.'
+      speaker: 1
+      line: Well, good luck with that.
+    - name: 'Eil: You''ll feel stupid when I pass you up. Chopping guys into bits
+        while you''re still perfecting footwork.'
+      speaker: 0
+      line: You'll feel stupid when I pass you up. Chopping guys into bits while
+        you're still perfecting footwork.
+    - name: 'Maxwell: Right. Sure. Can we like, get lunch or something? Hang out?'
+      speaker: 1
+      line: Right. Sure. Can we like, get lunch or something? Hang out?
+    - name: 'Eil: Fine. But we''re fighting again after.'
+      speaker: 0
+      line: Fine. But we're fighting again after.
+    - name: 'Maxwell: Sigh...'
+      speaker: 1
+      line: Sigh...
+    beforeNextFight:
+    - name: 'Eil: Alright, you ready?'
+      speaker: 0
+      line: Alright, you ready?
+    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
+        you?'
+      speaker: 1
+      line: Aw, cmon, man... Do we always have to spar every time I see you?
+    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      speaker: 0
+      line: 'What''s wrong? Scared you''ll lose? '
+    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
+        per month.'
+      speaker: 1
+      line: No, its not that. You know I only get a few days off of training per
+        month.
+    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
+        of the stuff I already spend every day doing. '
+      speaker: 1
+      line: 'I want to spend my time hanging out with you. Not doing more of the
+        stuff I already spend every day doing. '
+    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
+        pants school is a total scam first. '
+      speaker: 0
+      line: 'Well, we can do all that. I just have to prove that your fancy pants
+        school is a total scam first. '
+    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
+        pants school, right? '
+      speaker: 1
+      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
+        right? '
+    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
+        to taste defeat!'
+      speaker: 0
+      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
+        taste defeat!
+    nextChapterID: 6
   waitTime: 0
   textSpeed: 0.01
+  currChap:
+    name: 
+    ID: 0
+    playIfEli: 0
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 0
   eliText: {fileID: 790639570}
   MaxwellText: {fileID: 1562726582}
   eliGroup: {fileID: 7635538421861514189}
   maxwellGroup: {fileID: 1724502492}
+  chapID: -1
 --- !u!1 &271206407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,12 +2635,83 @@ MonoBehaviour:
   player1UI: {fileID: 142548080}
   player2UI: {fileID: 1168278103}
   dialogue: {fileID: 153381622}
-  p1Idle: {fileID: 21300000, guid: 99341e3657f3598428fe2df87da671e6, type: 3}
-  p1Attack: {fileID: 21300000, guid: 5dff6c83dd02d354ea98192e6212b8d3, type: 3}
-  p1Hurt: {fileID: 21300000, guid: 010828c9951759d4e903c8e71a1104d0, type: 3}
-  p2Idle: {fileID: 21300000, guid: fb574bd70fdb9874681aea1fb696be58, type: 3}
-  p2Attack: {fileID: 21300000, guid: 6d3ef7527c99bdf49b9495a4d54301f3, type: 3}
-  p2Hurt: {fileID: 21300000, guid: 0f5b852cc0f930048b38468786e0ce41, type: 3}
+  background: {fileID: 1559205109}
+  groundRend:
+  - {fileID: 834767709}
+  - {fileID: 1055428849}
+  - {fileID: 1834179899}
+  p1reactions:
+  - reactionLines:
+    - Ouch!
+    - "That wasn\u2019t fair\u2026"
+    - "You\u2019re hitting too hard!"
+    - Be careful!
+    - "Don\u2019t hit me for real!"
+  - reactionLines:
+    - Ouch!
+    - It's a mock battle, don't hurt me!
+    - That was dirty...
+    - You'll leave yourself open attacking like that!
+  - reactionLines:
+    - Ouch!
+    - "That wasn\u2019t fair\u2026"
+    - "You\u2019re hitting too hard!"
+    - Be careful!
+    - "Don\u2019t hit me for real!"
+  p2reactions:
+  - reactionLines:
+    - "Grrr\u2026!!!"
+    - You got lucky!
+    - Get back here!
+    - Hyah! YAH!
+    - You hit like a girl!
+  - reactionLines:
+    - They teach you that move in school?
+    - Cmon, hit me for real!
+    - Grrrr...
+    - HEY-! No fair!
+  - reactionLines:
+    - They teach you that move in school?
+    - Cmon, hit me for real!
+    - Grrrr...
+    - HEY-! No fair!
+  p1Idle:
+  - {fileID: 21300000, guid: 99341e3657f3598428fe2df87da671e6, type: 3}
+  - {fileID: 21300000, guid: 3075a65cdebe2f74c9e0ed193df925a0, type: 3}
+  - {fileID: 21300000, guid: 4ad1c9a64698f6148b552a725c31076d, type: 3}
+  p1Attack:
+  - {fileID: 21300000, guid: 5dff6c83dd02d354ea98192e6212b8d3, type: 3}
+  - {fileID: 21300000, guid: 3075a65cdebe2f74c9e0ed193df925a0, type: 3}
+  - {fileID: 21300000, guid: 4ad1c9a64698f6148b552a725c31076d, type: 3}
+  p1Hurt:
+  - {fileID: 21300000, guid: 010828c9951759d4e903c8e71a1104d0, type: 3}
+  - {fileID: 21300000, guid: 825970f5064d92343ae6828cdc9df60d, type: 3}
+  - {fileID: 21300000, guid: ef99aa79e23f5df4aa39501d1fc16052, type: 3}
+  p2Idle:
+  - {fileID: 21300000, guid: fb574bd70fdb9874681aea1fb696be58, type: 3}
+  - {fileID: 21300000, guid: 280451569b5fd6f48a538a0b0dd4fe12, type: 3}
+  - {fileID: 21300000, guid: c88bf52a6f88ccf429c59b78f813393c, type: 3}
+  p2Attack:
+  - {fileID: 21300000, guid: 6d3ef7527c99bdf49b9495a4d54301f3, type: 3}
+  - {fileID: 21300000, guid: b6591fd3b3e8ba34aadef529605b96ef, type: 3}
+  - {fileID: 21300000, guid: fe9e90ab530ac8e44b9de473e1c2f719, type: 3}
+  p2Hurt:
+  - {fileID: 21300000, guid: 0f5b852cc0f930048b38468786e0ce41, type: 3}
+  - {fileID: 21300000, guid: 6a462b3613a40b04989695787905834c, type: 3}
+  - {fileID: 21300000, guid: 8edecfec3372eab44b1c4978402e77a4, type: 3}
+  swords:
+  - {fileID: 21300000, guid: 7ff194f2f960bd844bc5f64b122e96fb, type: 3}
+  - {fileID: 21300000, guid: 72727c5ff9d9f084b8b8e01aafa773fc, type: 3}
+  - {fileID: 21300000, guid: 8fc8859ce817cd64dbb3896101422038, type: 3}
+  backgroundSprites:
+  - {fileID: 21300000, guid: 4e6e68608546a9141a9692e9784b6a2f, type: 3}
+  - {fileID: 21300000, guid: d1a2b4b7f165d3c45809f043a3d838da, type: 3}
+  - {fileID: 21300000, guid: da802062023ac5146b5cf1ef464d4d6b, type: 3}
+  grounds:
+  - {fileID: 21300000, guid: 9deeb90663301b247bc0d8ed5157eeb1, type: 3}
+  - {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
+  - {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
+  fighting: 0
 --- !u!1001 &1292074743
 PrefabInstance:
   m_ObjectHideFlags: 0
