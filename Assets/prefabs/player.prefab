@@ -489,7 +489,7 @@ MonoBehaviour:
   dashSpeed: 20
   dashTime: 0.1
   dashCooldown: 0.5
-  canDash: 1
+  canDash: 0
   source: {fileID: 7167733333193577161}
   footstep: 1
   land: 0

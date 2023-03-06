@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 
@@ -48,6 +49,11 @@ public class DialogueController : MonoBehaviour {
     bool eliSpeaking;
     [SerializeField] TextMeshProUGUI eliText, MaxwellText;
     [SerializeField] CanvasGroup eliGroup, maxwellGroup;
+    [SerializeField] Image eliSpeaker, maxwellSpeaker;
+
+    [SerializeField] List<Sprite> maxwells, elis;
+    int spriteIndex = 0;
+
     public int chapID = -1;
     
     private void OnValidate()
@@ -75,6 +81,7 @@ public class DialogueController : MonoBehaviour {
 
     public bool StartDialogue(Chapter.Outcome eliStatus) {
         Chapter newChap = null;
+
         for (int i = 0; i < chapters.Count; i++) {
             if (chapters[i].ID == chapID && chapters[i].playIfEli == eliStatus) newChap = chapters[i];
         }
@@ -82,6 +89,9 @@ public class DialogueController : MonoBehaviour {
             GameManager.instance.StartFight();
             return false;
         }
+        maxwellSpeaker.sprite = (chapID == 1 || chapID == 2) ? maxwells[1] : chapID == 0 ? maxwells[0] : maxwells[2];
+        eliSpeaker.sprite = (chapID == 1 || chapID == 2) ? elis[1] : chapID == 0 ? elis[0] : elis[2];
+
         currChap = newChap;
         currentLines = currChap.afterFight;
         StartDialogue();
@@ -97,6 +107,9 @@ public class DialogueController : MonoBehaviour {
             StartCoroutine(SwitchToNextFIght());
             return true;
         }
+
+        maxwellSpeaker.sprite = maxwells[spriteIndex];
+        eliSpeaker.sprite = elis[spriteIndex];
 
         var line = currentLines[0];
         eliSpeaking = (line.speaker == Chapter.Character.Eil);
@@ -115,7 +128,10 @@ public class DialogueController : MonoBehaviour {
         yield return new WaitForSeconds(2);
 
         GameManager.instance.background.sprite = GameManager.instance.backgroundSprites[1];
-        //GetComponent<PlayerStats>().idleSprite = GameManager.instance.
+        spriteIndex += 1;
+        maxwellSpeaker.sprite = maxwells[spriteIndex];
+        eliSpeaker.sprite = elis[spriteIndex];
+
         currentLines = currChap.beforeNextFight;
         startedCoroutine = false;
     }

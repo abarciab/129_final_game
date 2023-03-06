@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
 
     public void StartFight() {
         print("AHH START FIGHT");
-        if (fightNum == 1) foreach (var m in playerMoves) m.canDash = true;
+        if (started) foreach (var m in playerMoves) m.canDash = true;
 
         if (started) fightNum += 1;
         started = true;
