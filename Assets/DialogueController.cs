@@ -16,12 +16,14 @@ public class DialogueController : MonoBehaviour {
         public class Line
         {
             [HideInInspector] public string name;
+            
             public Character speaker;
             [TextArea(3, 7)]
             public string line;
         }
 
         [HideInInspector] public string name;
+        public string displayName;
         public int ID;
         public Outcome playIfEli;
         public List<Line> afterFight;
@@ -30,7 +32,8 @@ public class DialogueController : MonoBehaviour {
 
         public void OnValidate()
         {
-            name = ID + ": if Eli " + playIfEli.ToString() + " -> " + nextChapterID;
+            if (!string.IsNullOrEmpty(displayName)) name = displayName;
+            else name = ID + ": if Eli " + playIfEli.ToString() + " -> " + nextChapterID;
             
             foreach (var line in afterFight) {
                 line.name = line.speaker + ": " + line.line;

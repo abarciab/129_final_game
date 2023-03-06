@@ -412,7 +412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chapters:
-  - name: '-1: if Eli Wins -> 0'
+  - name: Start
+    displayName: Start
     ID: -1
     playIfEli: 0
     afterFight:
@@ -450,7 +451,8 @@ MonoBehaviour:
 '
     beforeNextFight: []
     nextChapterID: 0
-  - name: '0: if Eli Loses -> 1'
+  - name: Maxwell
+    displayName: Maxwell
     ID: 0
     playIfEli: 1
     afterFight:
@@ -533,7 +535,178 @@ MonoBehaviour:
       speaker: 1
       line: 'Huh? Fight for real? What are you- hey, stop it!- '
     nextChapterID: 1
-  - name: '0: if Eli Wins -> 2'
+  - name: Maxwell -> Eli
+    displayName: Maxwell -> Eli
+    ID: 1
+    playIfEli: 0
+    afterFight:
+    - name: 'Maxwell: Ow- stop, stop!'
+      speaker: 1
+      line: Ow- stop, stop!
+    - name: 'Eil: What- pick your sword up, we aren''t finished!'
+      speaker: 0
+      line: What- pick your sword up, we aren't finished!
+    - name: 'Maxwell: Get away from me! You''re hurting me for real!'
+      speaker: 1
+      line: Get away from me! You're hurting me for real!
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: ... I''m sorry. I didn''t mean to push you that hard. '
+      speaker: 1
+      line: '... I''m sorry. I didn''t mean to push you that hard. '
+    - name: 'Eil: Don''t give me that face! You''re looking at me like you think
+        I''m some sort of monster!'
+      speaker: 0
+      line: Don't give me that face! You're looking at me like you think I'm some
+        sort of monster!
+    - name: 'Maxwell: I think you don''t know your own strength sometimes! Eli, I''m
+        bleeding-'
+      speaker: 1
+      line: I think you don't know your own strength sometimes! Eli, I'm bleeding-
+    - name: 'Eil: Yeah? Did you think this would be sunshine and rainbows? That you''d
+        never get hurt being a member of the Royal Guard?'
+      speaker: 0
+      line: Yeah? Did you think this would be sunshine and rainbows? That you'd never
+        get hurt being a member of the Royal Guard?
+    - name: 'Maxwell: No! Of course not. I just didn''t think that the person hurting
+        me would be my friend. '
+      speaker: 1
+      line: 'No! Of course not. I just didn''t think that the person hurting me would
+        be my friend. '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: You''re... Eli, you''re my friend. But you''re out of control.
+        You''re constantly hurting people in training.'
+      speaker: 1
+      line: You're... Eli, you're my friend. But you're out of control. You're constantly
+        hurting people in training.
+    - name: 'Eil: They should be better prepared. Nobody''s going to pull their punches
+        in the real world.'
+      speaker: 0
+      line: They should be better prepared. Nobody's going to pull their punches
+        in the real world.
+    - name: 'Maxwell: Do you hear yourself? If you can''t control yourself in a fight,
+        you''re going to get kicked out.'
+      speaker: 1
+      line: Do you hear yourself? If you can't control yourself in a fight, you're
+        going to get kicked out.
+    - name: 'Eil: Well. Maybe I don''t belong here then. '
+      speaker: 0
+      line: 'Well. Maybe I don''t belong here then. '
+    - name: 'Maxwell: That''s not what I meant-'
+      speaker: 1
+      line: That's not what I meant-
+    - name: 'Eil: No. You all are only holding me back. I need to get out of here.'
+      speaker: 0
+      line: No. You all are only holding me back. I need to get out of here.
+    - name: 'Maxwell: Eli- ouch, wait! Where are you going?'
+      speaker: 1
+      line: Eli- ouch, wait! Where are you going?
+    beforeNextFight: []
+    nextChapterID: 3
+  - name: Maxwell -> Eli -> Maxwell
+    displayName: Maxwell -> Eli -> Maxwell
+    ID: 3
+    playIfEli: 1
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 7
+  - name: Maxwell -> Eli -> Eli
+    displayName: Maxwell -> Eli -> Eli
+    ID: 3
+    playIfEli: 0
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 8
+  - name: Maxwell -> Maxwell
+    displayName: Maxwell -> Maxwell
+    ID: 1
+    playIfEli: 1
+    afterFight:
+    - name: 'Maxwell: Enough. Stand down.'
+      speaker: 1
+      line: Enough. Stand down.
+    - name: 'Eil: GRAH, why can I never beat you?'
+      speaker: 0
+      line: GRAH, why can I never beat you?
+    - name: 'Maxwell: It''s not about beating me. It''s about your own personal journey
+        of growth, being better than you were yesterday.'
+      speaker: 1
+      line: It's not about beating me. It's about your own personal journey of growth,
+        being better than you were yesterday.
+    - name: 'Eil: Uhg, thats exactly the sort of pretentious garbage I knew you''d
+        say. You don''t know what its like to come from nothing- you''ve had every
+        single advantage your entire life.'
+      speaker: 0
+      line: Uhg, thats exactly the sort of pretentious garbage I knew you'd say.
+        You don't know what its like to come from nothing- you've had every single
+        advantage your entire life.
+    - name: 'Maxwell: ... Eli, what''s all this about? You''ve never acted like this
+        before.'
+      speaker: 1
+      line: ... Eli, what's all this about? You've never acted like this before.
+    - name: 'Eil: It doesn''t matter. A traveler from Redcliff came through the other
+        day. He said I have skills. I''m going to join their guard instead the second
+        I can.'
+      speaker: 0
+      line: It doesn't matter. A traveler from Redcliff came through the other day.
+        He said I have skills. I'm going to join their guard instead the second I
+        can.
+    - name: 'Maxwell: Redcliff? Eli, haven''t you heard that they''re planning on
+        going to war with us?'
+      speaker: 1
+      line: Redcliff? Eli, haven't you heard that they're planning on going to war
+        with us?
+    - name: 'Eil: That''s just a rumor and you know it. I''d rather go live somewhere
+        else where my talent is appreciated instead of living in your shadow for
+        the rest of my life.'
+      speaker: 0
+      line: That's just a rumor and you know it. I'd rather go live somewhere else
+        where my talent is appreciated instead of living in your shadow for the rest
+        of my life.
+    - name: 'Maxwell: Eli-'
+      speaker: 1
+      line: Eli-
+    - name: 'Eil: I''ve gotten more recognition from a random traveler than I have
+        in all my years at this dumb academy. There''s no reason for me to stay.'
+      speaker: 0
+      line: I've gotten more recognition from a random traveler than I have in all
+        my years at this dumb academy. There's no reason for me to stay.
+    - name: 'Maxwell: Eli, lets talk about this-'
+      speaker: 1
+      line: Eli, lets talk about this-
+    - name: 'Eil: No. You''re never going to understand. I''m packing my things and
+        leaving today. I''m over it.'
+      speaker: 0
+      line: No. You're never going to understand. I'm packing my things and leaving
+        today. I'm over it.
+    - name: 'Maxwell: Eli, come back-!
+
+'
+      speaker: 1
+      line: 'Eli, come back-!
+
+'
+    beforeNextFight: []
+    nextChapterID: 4
+  - name: Maxwell -> Maxwell -> Maxwell
+    displayName: Maxwell -> Maxwell -> Maxwell
+    ID: 4
+    playIfEli: 1
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 9
+  - name: Maxwell -> Maxwell -> Eli
+    displayName: Maxwell -> Maxwell -> Eli
+    ID: 4
+    playIfEli: 0
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 10
+  - name: Eli
+    displayName: Eli
     ID: 0
     playIfEli: 0
     afterFight:
@@ -618,147 +791,8 @@ MonoBehaviour:
       line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
         taste defeat!
     nextChapterID: 2
-  - name: '1: if Eli Wins -> 3'
-    ID: 1
-    playIfEli: 0
-    afterFight:
-    - name: 'Maxwell: Ow- stop, stop!'
-      speaker: 1
-      line: Ow- stop, stop!
-    - name: 'Eil: What- pick your sword up, we aren''t finished!'
-      speaker: 0
-      line: What- pick your sword up, we aren't finished!
-    - name: 'Maxwell: Get away from me! You''re hurting me for real!'
-      speaker: 1
-      line: Get away from me! You're hurting me for real!
-    - name: 'Eil: ...'
-      speaker: 0
-      line: ...
-    - name: 'Maxwell: ... I''m sorry. I didn''t mean to push you that hard. '
-      speaker: 1
-      line: '... I''m sorry. I didn''t mean to push you that hard. '
-    - name: 'Eil: Don''t give me that face! You''re looking at me like you think
-        I''m some sort of monster!'
-      speaker: 0
-      line: Don't give me that face! You're looking at me like you think I'm some
-        sort of monster!
-    - name: 'Maxwell: I think you don''t know your own strength sometimes! Eli, I''m
-        bleeding-'
-      speaker: 1
-      line: I think you don't know your own strength sometimes! Eli, I'm bleeding-
-    - name: 'Eil: Yeah? Did you think this would be sunshine and rainbows? That you''d
-        never get hurt being a member of the Royal Guard?'
-      speaker: 0
-      line: Yeah? Did you think this would be sunshine and rainbows? That you'd never
-        get hurt being a member of the Royal Guard?
-    - name: 'Maxwell: No! Of course not. I just didn''t think that the person hurting
-        me would be my friend. '
-      speaker: 1
-      line: 'No! Of course not. I just didn''t think that the person hurting me would
-        be my friend. '
-    - name: 'Eil: ...'
-      speaker: 0
-      line: ...
-    - name: 'Maxwell: You''re... Eli, you''re my friend. But you''re out of control.
-        You''re constantly hurting people in training.'
-      speaker: 1
-      line: You're... Eli, you're my friend. But you're out of control. You're constantly
-        hurting people in training.
-    - name: 'Eil: They should be better prepared. Nobody''s going to pull their punches
-        in the real world.'
-      speaker: 0
-      line: They should be better prepared. Nobody's going to pull their punches
-        in the real world.
-    - name: 'Maxwell: Do you hear yourself? If you can''t control yourself in a fight,
-        you''re going to get kicked out.'
-      speaker: 1
-      line: Do you hear yourself? If you can't control yourself in a fight, you're
-        going to get kicked out.
-    - name: 'Eil: Well. Maybe I don''t belong here then. '
-      speaker: 0
-      line: 'Well. Maybe I don''t belong here then. '
-    - name: 'Maxwell: That''s not what I meant-'
-      speaker: 1
-      line: That's not what I meant-
-    - name: 'Eil: No. You all are only holding me back. I need to get out of here.'
-      speaker: 0
-      line: No. You all are only holding me back. I need to get out of here.
-    - name: 'Maxwell: Eli- ouch, wait! Where are you going?'
-      speaker: 1
-      line: Eli- ouch, wait! Where are you going?
-    beforeNextFight: []
-    nextChapterID: 3
-  - name: '1: if Eli Loses -> 4'
-    ID: 1
-    playIfEli: 1
-    afterFight:
-    - name: 'Maxwell: Enough. Stand down.'
-      speaker: 1
-      line: Enough. Stand down.
-    - name: 'Eil: GRAH, why can I never beat you?'
-      speaker: 0
-      line: GRAH, why can I never beat you?
-    - name: 'Maxwell: It''s not about beating me. It''s about your own personal journey
-        of growth, being better than you were yesterday.'
-      speaker: 1
-      line: It's not about beating me. It's about your own personal journey of growth,
-        being better than you were yesterday.
-    - name: 'Eil: Uhg, thats exactly the sort of pretentious garbage I knew you''d
-        say. You don''t know what its like to come from nothing- you''ve had every
-        single advantage your entire life.'
-      speaker: 0
-      line: Uhg, thats exactly the sort of pretentious garbage I knew you'd say.
-        You don't know what its like to come from nothing- you've had every single
-        advantage your entire life.
-    - name: 'Maxwell: ... Eli, what''s all this about? You''ve never acted like this
-        before.'
-      speaker: 1
-      line: ... Eli, what's all this about? You've never acted like this before.
-    - name: 'Eil: It doesn''t matter. A traveler from Redcliff came through the other
-        day. He said I have skills. I''m going to join their guard instead the second
-        I can.'
-      speaker: 0
-      line: It doesn't matter. A traveler from Redcliff came through the other day.
-        He said I have skills. I'm going to join their guard instead the second I
-        can.
-    - name: 'Maxwell: Redcliff? Eli, haven''t you heard that they''re planning on
-        going to war with us?'
-      speaker: 1
-      line: Redcliff? Eli, haven't you heard that they're planning on going to war
-        with us?
-    - name: 'Eil: That''s just a rumor and you know it. I''d rather go live somewhere
-        else where my talent is appreciated instead of living in your shadow for
-        the rest of my life.'
-      speaker: 0
-      line: That's just a rumor and you know it. I'd rather go live somewhere else
-        where my talent is appreciated instead of living in your shadow for the rest
-        of my life.
-    - name: 'Maxwell: Eli-'
-      speaker: 1
-      line: Eli-
-    - name: 'Eil: I''ve gotten more recognition from a random traveler than I have
-        in all my years at this dumb academy. There''s no reason for me to stay.'
-      speaker: 0
-      line: I've gotten more recognition from a random traveler than I have in all
-        my years at this dumb academy. There's no reason for me to stay.
-    - name: 'Maxwell: Eli, lets talk about this-'
-      speaker: 1
-      line: Eli, lets talk about this-
-    - name: 'Eil: No. You''re never going to understand. I''m packing my things and
-        leaving today. I''m over it.'
-      speaker: 0
-      line: No. You're never going to understand. I'm packing my things and leaving
-        today. I'm over it.
-    - name: 'Maxwell: Eli, come back-!
-
-'
-      speaker: 1
-      line: 'Eli, come back-!
-
-'
-    beforeNextFight: []
-    nextChapterID: 4
-  - name: '2: if Eli Wins -> 5'
+  - name: Eli -> Eli
+    displayName: Eli -> Eli
     ID: 2
     playIfEli: 0
     afterFight:
@@ -876,7 +910,22 @@ MonoBehaviour:
       line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
         taste defeat!
     nextChapterID: 5
-  - name: '2: if Eli Loses -> 6'
+  - name: Eli -> Eli -> Maxwell
+    displayName: Eli -> Eli -> Maxwell
+    ID: 5
+    playIfEli: 1
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 11
+  - name: Eli -> Eli -> Eli
+    displayName: Eli -> Eli -> Eli
+    ID: 5
+    playIfEli: 0
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 12
+  - name: Eli -> Maxwell
+    displayName: Eli -> Maxwell
     ID: 2
     playIfEli: 1
     afterFight:
@@ -986,10 +1035,25 @@ MonoBehaviour:
       line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
         taste defeat!
     nextChapterID: 6
+  - name: Eli -> Maxwell -> Maxwell
+    displayName: Eli -> Maxwell -> Maxwell
+    ID: 6
+    playIfEli: 1
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 13
+  - name: Eli -> Maxwell -> Eli
+    displayName: Eli -> Maxwell -> Eli
+    ID: 6
+    playIfEli: 0
+    afterFight: []
+    beforeNextFight: []
+    nextChapterID: 14
   waitTime: 0
   textSpeed: 0.01
   currChap:
     name: 
+    displayName: 
     ID: 0
     playIfEli: 0
     afterFight: []
