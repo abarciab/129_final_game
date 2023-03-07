@@ -689,20 +689,164 @@ MonoBehaviour:
       line: 'Eli, come back-!
 
 '
-    beforeNextFight: []
+    beforeNextFight:
+    - name: 'Maxwell: ... Eli? Is that you?'
+      speaker: 1
+      line: ... Eli? Is that you?
+    - name: 'Eil: Maxwell. I see you''ve risen through the ranks.'
+      speaker: 0
+      line: Maxwell. I see you've risen through the ranks.
+    - name: 'Maxwell: So have you...'
+      speaker: 1
+      line: So have you...
+    - name: 'Maxwell: Is this where you''ve been all these years? Helping our enemy?'
+      speaker: 1
+      line: Is this where you've been all these years? Helping our enemy?
+    - name: 'Eil: Your enemy, Maxwell. Redcliff and their armies outmatch yours.
+        You''d be wise to surrender.'
+      speaker: 0
+      line: Your enemy, Maxwell. Redcliff and their armies outmatch yours. You'd
+        be wise to surrender.
+    - name: 'Maxwell: Redcliff will enslave our people- don''t you understand that?
+        Whatever glory you''re after isn''t worth all the lives that will be lost.'
+      speaker: 1
+      line: Redcliff will enslave our people- don't you understand that? Whatever
+        glory you're after isn't worth all the lives that will be lost.
+    - name: 'Eil: More lives will be lost if you continue resisting.'
+      speaker: 0
+      line: More lives will be lost if you continue resisting.
+    - name: 'Maxwell: Eli. You don''t have to do this.'
+      speaker: 1
+      line: Eli. You don't have to do this.
+    - name: 'Eil: ... Fine. Don''t say I didn''t warn you.'
+      speaker: 0
+      line: ... Fine. Don't say I didn't warn you.
     nextChapterID: 4
   - name: Maxwell -> Maxwell -> Maxwell
     displayName: Maxwell -> Maxwell -> Maxwell
     ID: 4
     playIfEli: 1
-    afterFight: []
+    afterFight:
+    - name: 'Eil: Ack!-'
+      speaker: 0
+      line: Ack!-
+    - name: 'Eil: No, NO! It''s not fair! No matter what I do, I can''t win against
+        you!'
+      speaker: 0
+      line: No, NO! It's not fair! No matter what I do, I can't win against you!
+    - name: 'Maxwell: Is that what all this is about? Beating me?'
+      speaker: 1
+      line: Is that what all this is about? Beating me?
+    - name: 'Eil: You don''t understand! You don''t understand what it''s like to
+        lose over and over again. Just once, I wanted to win. '
+      speaker: 0
+      line: 'You don''t understand! You don''t understand what it''s like to lose
+        over and over again. Just once, I wanted to win. '
+    - name: 'Maxwell: You would betray your country just to get back at me? I thought
+        we were friends.'
+      speaker: 1
+      line: You would betray your country just to get back at me? I thought we were
+        friends.
+    - name: 'Eil:  It''s not about- Uhg. I wanted to be someone important like you.
+        The best at something. I was tired of being in your shadow all the time.'
+      speaker: 0
+      line: ' It''s not about- Uhg. I wanted to be someone important like you. The
+        best at something. I was tired of being in your shadow all the time.'
+    - name: 'Eil:  I got so caught up in trying to do that... I didn''t stop to think
+        about what I was doing. Joining Redcliff and all. '
+      speaker: 0
+      line: ' I got so caught up in trying to do that... I didn''t stop to think
+        about what I was doing. Joining Redcliff and all. '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: Just kill me. I''ll never be strong enough.'
+      speaker: 0
+      line: Just kill me. I'll never be strong enough.
+    - name: 'Maxwell: That''s not true. You''re strong in your own way.'
+      speaker: 1
+      line: That's not true. You're strong in your own way.
+    - name: 'Eil: Oh, spare me. I''ve failed. There''s nothing left for me now.'
+      speaker: 0
+      line: Oh, spare me. I've failed. There's nothing left for me now.
+    - name: 'Maxwell: You''re a high ranking commander, aren''t you? The information
+        you have would be invaluable to turning the tides.'
+      speaker: 1
+      line: You're a high ranking commander, aren't you? The information you have
+        would be invaluable to turning the tides.
+    - name: 'Maxwell: You''d be a hero, Eli.'
+      speaker: 1
+      line: You'd be a hero, Eli.
+    - name: 'Eil: A hero...?'
+      speaker: 0
+      line: A hero...?
+    - name: 'Maxwell: Please, Eli. Come with me. There''s still a chance for you.'
+      speaker: 1
+      line: Please, Eli. Come with me. There's still a chance for you.
+    - name: 'Eil: ... You''d forgive me?'
+      speaker: 0
+      line: ... You'd forgive me?
+    - name: 'Maxwell: I already have.'
+      speaker: 1
+      line: I already have.
+    - name: 'Maxwell: Let''s go home.'
+      speaker: 1
+      line: Let's go home.
     beforeNextFight: []
     nextChapterID: 9
   - name: Maxwell -> Maxwell -> Eli
     displayName: Maxwell -> Maxwell -> Eli
     ID: 4
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Eil: Hah- I did it. I finally did it. '
+      speaker: 0
+      line: 'Hah- I did it. I finally did it. '
+    - name: 'Maxwell: *cough* *cough*'
+      speaker: 1
+      line: '*cough* *cough*'
+    - name: 'Eil: After all these years. I beat you. I''m stronger than you. '
+      speaker: 0
+      line: 'After all these years. I beat you. I''m stronger than you. '
+    - name: 'Maxwell: All this... just to prove your strength?'
+      speaker: 1
+      line: All this... just to prove your strength?
+    - name: 'Eil: You couldn''t understand. All my life I''ve been trying to prove
+        myself, only for you to outshine me at every opportunity. '
+      speaker: 0
+      line: 'You couldn''t understand. All my life I''ve been trying to prove myself,
+        only for you to outshine me at every opportunity. '
+    - name: 'Eil: But now I''ve done it. I''ll lead my people to victory. They''ll
+        remember me as a hero.'
+      speaker: 0
+      line: But now I've done it. I'll lead my people to victory. They'll remember
+        me as a hero.
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Maxwell: Will it be worth it when you''re all alone?'
+      speaker: 1
+      line: Will it be worth it when you're all alone?
+    - name: 'Eil: What?...'
+      speaker: 0
+      line: What?...
+    - name: 'Maxwell:  I never wanted to make you feel small. Like we were rivals.
+        I just wanted... *cough* to be your friend. '
+      speaker: 1
+      line: ' I never wanted to make you feel small. Like we were rivals. I just
+        wanted... *cough* to be your friend. '
+    - name: 'Maxwell: I thought we were friends...'
+      speaker: 1
+      line: I thought we were friends...
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: ... Max?...'
+      speaker: 0
+      line: ... Max?...
+    - name: 'Eil: Max- Max, get up-'
+      speaker: 0
+      line: Max- Max, get up-
     beforeNextFight: []
     nextChapterID: 10
   - name: Eli
@@ -874,54 +1018,164 @@ MonoBehaviour:
 
 '
     beforeNextFight:
-    - name: 'Eil: Alright, you ready?'
+    - name: "Eil: ...\r"
       speaker: 0
-      line: Alright, you ready?
-    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
-        you?'
-      speaker: 1
-      line: Aw, cmon, man... Do we always have to spar every time I see you?
-    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      line: "...\r"
+    - name: 'Eil: Get out of my way.'
       speaker: 0
-      line: 'What''s wrong? Scared you''ll lose? '
-    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
-        per month.'
+      line: Get out of my way.
+    - name: 'Maxwell:  I can''t let you do this.'
       speaker: 1
-      line: No, its not that. You know I only get a few days off of training per
-        month.
-    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
-        of the stuff I already spend every day doing. '
-      speaker: 1
-      line: 'I want to spend my time hanging out with you. Not doing more of the
-        stuff I already spend every day doing. '
-    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
-        pants school is a total scam first. '
+      line: ' I can''t let you do this.'
+    - name: 'Eil:  I''m not asking for your permission.'
       speaker: 0
-      line: 'Well, we can do all that. I just have to prove that your fancy pants
-        school is a total scam first. '
-    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
-        pants school, right? '
-      speaker: 1
-      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
-        right? '
-    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
-        to taste defeat!'
+      line: ' I''m not asking for your permission.'
+    - name: 'Eil: Our king has failed us. Our country deserves a leader who will
+        lead us into battle, not cower in his castle.'
       speaker: 0
-      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
-        taste defeat!
+      line: Our king has failed us. Our country deserves a leader who will lead us
+        into battle, not cower in his castle.
+    - name: 'Maxwell: What''s the point? Our country is stable- we can defend ourselves
+        against invaders, why cause unnecessary bloodshed?'
+      speaker: 1
+      line: What's the point? Our country is stable- we can defend ourselves against
+        invaders, why cause unnecessary bloodshed?
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell:  I don''t want to hurt you, Eli, but I will not let you through. '
+      speaker: 1
+      line: ' I don''t want to hurt you, Eli, but I will not let you through. '
+    - name: 'Maxwell: You can turn back now and we''ll never speak of this again.'
+      speaker: 1
+      line: You can turn back now and we'll never speak of this again.
+    - name: 'Eil: You couldn''t ever beat me before. What makes you think you can
+        now?'
+      speaker: 0
+      line: You couldn't ever beat me before. What makes you think you can now?
+    - name: 'Maxwell:  I don''t know if I can. But I''m still going to try.'
+      speaker: 1
+      line: ' I don''t know if I can. But I''m still going to try.'
     nextChapterID: 5
   - name: Eli -> Eli -> Maxwell
     displayName: Eli -> Eli -> Maxwell
     ID: 5
     playIfEli: 1
-    afterFight: []
+    afterFight:
+    - name: 'Eil: *cough* '
+      speaker: 0
+      line: '*cough* '
+    - name: 'Maxwell: ... Stand down. Any more would be fatal.'
+      speaker: 1
+      line: ... Stand down. Any more would be fatal.
+    - name: 'Eil: How- you''ve gotten stronger, how?'
+      speaker: 0
+      line: How- you've gotten stronger, how?
+    - name: 'Maxwell:  I knew you''d come back someday to try and take the crown.'
+      speaker: 1
+      line: ' I knew you''d come back someday to try and take the crown.'
+    - name: 'Maxwell: So I trained. Every day, in hopes that when we met again I''d
+        be able to match your strength.'
+      speaker: 1
+      line: So I trained. Every day, in hopes that when we met again I'd be able
+        to match your strength.
+    - name: 'Eil: ... Go on, then. Get it over with.'
+      speaker: 0
+      line: ... Go on, then. Get it over with.
+    - name: 'Maxwell: I''m not going to kill you, Eli. '
+      speaker: 1
+      line: 'I''m not going to kill you, Eli. '
+    - name: 'Maxwell: We caught wind of your plan before you arrived, the King has
+        evacuated. I''m the only one who knows what happened here.'
+      speaker: 1
+      line: We caught wind of your plan before you arrived, the King has evacuated.
+        I'm the only one who knows what happened here.
+    - name: 'Maxwell: Nobody needs to know it was you... I could get you a job with
+        the guard again...'
+      speaker: 1
+      line: Nobody needs to know it was you... I could get you a job with the guard
+        again...
+    - name: 'Eil: ... You''d really do that? After everything?'
+      speaker: 0
+      line: ... You'd really do that? After everything?
+    - name: 'Maxwell: Of course. '
+      speaker: 1
+      line: 'Of course. '
+    - name: 'Eil: ... I don''t deserve that.'
+      speaker: 0
+      line: ... I don't deserve that.
+    - name: 'Maxwell: Maybe not. But you''re still my friend.'
+      speaker: 1
+      line: Maybe not. But you're still my friend.
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: I missed you.'
+      speaker: 1
+      line: I missed you.
+    - name: 'Eil: ... I missed you too.'
+      speaker: 0
+      line: ... I missed you too.
+    - name: 'Maxwell: Come on, take my hand. Let''s go get you patched up.'
+      speaker: 1
+      line: Come on, take my hand. Let's go get you patched up.
     beforeNextFight: []
     nextChapterID: 11
   - name: Eli -> Eli -> Eli
     displayName: Eli -> Eli -> Eli
     ID: 5
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Maxwell: *cough* '
+      speaker: 1
+      line: '*cough* '
+    - name: 'Eil: ... That''s it, then. I told you you couldn''t best me. '
+      speaker: 0
+      line: '... That''s it, then. I told you you couldn''t best me. '
+    - name: 'Maxwell: I knew I couldn''t defeat you. You''ve always been stronger
+        than me.'
+      speaker: 1
+      line: I knew I couldn't defeat you. You've always been stronger than me.
+    - name: 'Maxwell: But I still wanted to try... *cough*'
+      speaker: 1
+      line: But I still wanted to try... *cough*
+    - name: 'Eil: You tried and you failed. Was your king worth dying for?'
+      speaker: 0
+      line: You tried and you failed. Was your king worth dying for?
+    - name: 'Maxwell: I wasn''t doing this for the king! I was doing it for you. '
+      speaker: 1
+      line: 'I wasn''t doing this for the king! I was doing it for you. '
+    - name: 'Maxwell:  I wanted to try and... save you. *cough* From what you''re
+        becoming.'
+      speaker: 1
+      line: ' I wanted to try and... save you. *cough* From what you''re becoming.'
+    - name: 'Maxwell: A king that rules with violence and fear... '
+      speaker: 1
+      line: 'A king that rules with violence and fear... '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: Even after... everything, I still... care about you.'
+      speaker: 1
+      line: Even after... everything, I still... care about you.
+    - name: 'Maxwell: I failed you. I''m sorry.'
+      speaker: 1
+      line: I failed you. I'm sorry.
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Eil: ... Max?'
+      speaker: 0
+      line: ... Max?
+    - name: 'Eil: Oh, god.'
+      speaker: 0
+      line: Oh, god.
+    - name: 'Eil: What have I done?'
+      speaker: 0
+      line: What have I done?
     beforeNextFight: []
     nextChapterID: 12
   - name: Eli -> Maxwell
