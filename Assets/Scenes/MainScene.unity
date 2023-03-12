@@ -569,11 +569,11 @@ MonoBehaviour:
       speaker: 0
       line: Yeah? Did you think this would be sunshine and rainbows? That you'd never
         get hurt being a member of the Royal Guard?
-    - name: 'Maxwell: No! Of course not. I just didn''t think that the person hurting
-        me would be my friend. '
+    - name: 'Maxwell: No! Of course not. I just... Eli, everyone is looking at us.
+        You''re embarassing me-'
       speaker: 1
-      line: 'No! Of course not. I just didn''t think that the person hurting me would
-        be my friend. '
+      line: No! Of course not. I just... Eli, everyone is looking at us. You're embarassing
+        me-
     - name: 'Eil: ...'
       speaker: 0
       line: ...
@@ -582,19 +582,21 @@ MonoBehaviour:
       speaker: 1
       line: You're... Eli, you're my friend. But you're out of control. You're constantly
         hurting people in training.
-    - name: 'Eil: They should be better prepared. Nobody''s going to pull their punches
-        in the real world.'
+    - name: 'Eil: Is that what you worried about? Or do you think I''m gonna ruin
+        your squeaky clean reputation?'
       speaker: 0
-      line: They should be better prepared. Nobody's going to pull their punches
-        in the real world.
-    - name: 'Maxwell: Do you hear yourself? If you can''t control yourself in a fight,
-        you''re going to get kicked out.'
+      line: Is that what you worried about? Or do you think I'm gonna ruin your squeaky
+        clean reputation?
+    - name: 'Maxwell: Eli- you have to be more responsible if you''re going to be
+        a part of the guard. There''s high expectations-'
       speaker: 1
-      line: Do you hear yourself? If you can't control yourself in a fight, you're
-        going to get kicked out.
-    - name: 'Eil: Well. Maybe I don''t belong here then. '
+      line: Eli- you have to be more responsible if you're going to be a part of
+        the guard. There's high expectations-
+    - name: 'Eil: Yeah. You gotta act the part if you wanna be a little rich boy''s
+        soldier. Maybe I don''t just don''t belong here. '
       speaker: 0
-      line: 'Well. Maybe I don''t belong here then. '
+      line: 'Yeah. You gotta act the part if you wanna be a little rich boy''s soldier.
+        Maybe I don''t just don''t belong here. '
     - name: 'Maxwell: That''s not what I meant-'
       speaker: 1
       line: That's not what I meant-
@@ -604,20 +606,161 @@ MonoBehaviour:
     - name: 'Maxwell: Eli- ouch, wait! Where are you going?'
       speaker: 1
       line: Eli- ouch, wait! Where are you going?
-    beforeNextFight: []
+    beforeNextFight:
+    - name: 'Maxwell: Nowhere left to run.'
+      speaker: 1
+      line: Nowhere left to run.
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: Finally caught you. We''ve been following your heists in the
+        Uptown District...  I didn''t think you''d be dumb enough to try and steal
+        from the king himself. '
+      speaker: 1
+      line: 'Finally caught you. We''ve been following your heists in the Uptown
+        District...  I didn''t think you''d be dumb enough to try and steal from
+        the king himself. '
+    - name: 'Maxwell: You''re under arrest. Surrender now and you''ll be given a
+        fair trial.'
+      speaker: 1
+      line: You're under arrest. Surrender now and you'll be given a fair trial.
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: What, nothing to say for yourself? Another common criminal,
+        devoid of all morals. '
+      speaker: 1
+      line: 'What, nothing to say for yourself? Another common criminal, devoid of
+        all morals. '
+    - name: 'Maxwell: Fine, then. If you won''t come peacefully you leave me no choice.'
+      speaker: 1
+      line: Fine, then. If you won't come peacefully you leave me no choice.
     nextChapterID: 3
   - name: Maxwell -> Eli -> Maxwell
     displayName: Maxwell -> Eli -> Maxwell
     ID: 3
     playIfEli: 1
-    afterFight: []
+    afterFight:
+    - name: 'Eil: Ow- god, ouch... Oh...'
+      speaker: 0
+      line: Ow- god, ouch... Oh...
+    - name: 'Maxwell:  ... I know that voice- Eli!?'
+      speaker: 1
+      line: ' ... I know that voice- Eli!?'
+    - name: 'Maxwell: Eli, is that you? I haven''t seen you in- what are you doing
+        here? '
+      speaker: 1
+      line: 'Eli, is that you? I haven''t seen you in- what are you doing here? '
+    - name: 'Eil: Does it matter? '
+      speaker: 0
+      line: 'Does it matter? '
+    - name: 'Maxwell: Of course it matters, what are you talking about?'
+      speaker: 1
+      line: Of course it matters, what are you talking about?
+    - name: 'Eil: ... I thought I was another ''common criminal.'' Go on and throw
+        me in jail with the rest of them.'
+      speaker: 0
+      line: ... I thought I was another 'common criminal.' Go on and throw me in
+        jail with the rest of them.
+    - name: 'Maxwell: But... Eli, you''re not a bad person- why are you-'
+      speaker: 1
+      line: But... Eli, you're not a bad person- why are you-
+    - name: 'Eil: Stealing? Sorry if this is news to you, but when you''re broke
+        and starving its hard to avoid being a ''bad person.'' '
+      speaker: 0
+      line: 'Stealing? Sorry if this is news to you, but when you''re broke and starving
+        its hard to avoid being a ''bad person.'' '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: Did you ever stop to question why so many of us turn to crime?
+        That maybe your stupid government cares more about putting people on the
+        streets in jail than feeding them?'
+      speaker: 0
+      line: Did you ever stop to question why so many of us turn to crime? That maybe
+        your stupid government cares more about putting people on the streets in
+        jail than feeding them?
+    - name: "Maxwell: I... No, I want to protect people, that's what I've always-\r"
+      speaker: 1
+      line: "I... No, I want to protect people, that's what I've always-\r"
+    - name: 'Eil: Who are you really protecting? '
+      speaker: 0
+      line: 'Who are you really protecting? '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Maxwell:  ... Go, run. Get out of here.'
+      speaker: 1
+      line: ' ... Go, run. Get out of here.'
+    - name: 'Eil: ... What? '
+      speaker: 0
+      line: '... What? '
+    - name: 'Maxwell:  I never saw you. You escaped the city. '
+      speaker: 1
+      line: ' I never saw you. You escaped the city. '
+    - name: 'Eil: ... Right. What about you?'
+      speaker: 0
+      line: ... Right. What about you?
+    - name: 'Maxwell:  I''ve... got some thinking to do. I''m sorry. '
+      speaker: 1
+      line: ' I''ve... got some thinking to do. I''m sorry. '
+    - name: 'Maxwell: ... If I ever see you again, I hope I''ll be a person worthy
+        of your forgiveness. '
+      speaker: 1
+      line: '... If I ever see you again, I hope I''ll be a person worthy of your
+        forgiveness. '
     beforeNextFight: []
     nextChapterID: 7
   - name: Maxwell -> Eli -> Eli
     displayName: Maxwell -> Eli -> Eli
     ID: 3
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Maxwell: *cough* ... This isn''t the end. Your luck will run out someday,
+        you''ll be... *cough* '
+      speaker: 1
+      line: '*cough* ... This isn''t the end. Your luck will run out someday, you''ll
+        be... *cough* '
+    - name: 'Eil:  ... Look at you... I can''t believe this is what you''ve become.'
+      speaker: 0
+      line: ' ... Look at you... I can''t believe this is what you''ve become.'
+    - name: 'Maxwell: ... Eli...? No, it can''t be-'
+      speaker: 1
+      line: ... Eli...? No, it can't be-
+    - name: 'Eil: I was always jealous of you growing up, you know that? I thought
+        you were so strong and cool.'
+      speaker: 0
+      line: I was always jealous of you growing up, you know that? I thought you
+        were so strong and cool.
+    - name: 'Eil: I wanted to be just like you- I thought we''d be working together
+        in the guard, helping people.'
+      speaker: 0
+      line: I wanted to be just like you- I thought we'd be working together in the
+        guard, helping people.
+    - name: 'Eil: But that place made you just as bad as the rest of them.'
+      speaker: 0
+      line: But that place made you just as bad as the rest of them.
+    - name: 'Maxwell: That''s not- I''m just doing my job! '
+      speaker: 1
+      line: 'That''s not- I''m just doing my job! '
+    - name: 'Eil: Your job is to protect the rich and powerful! The people who need
+        protecting the least!'
+      speaker: 0
+      line: Your job is to protect the rich and powerful! The people who need protecting
+        the least!
+    - name: 'Eil: You throw people in jail for trying to feed themselves while those
+        pricks in the Uptown District have more than they''ll ever need. '
+      speaker: 0
+      line: 'You throw people in jail for trying to feed themselves while those pricks
+        in the Uptown District have more than they''ll ever need. '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: I''m getting out of here. Go live your happy Royal Guard life with
+        all your rich and important friends. I don''t ever want to see you again.'
+      speaker: 0
+      line: I'm getting out of here. Go live your happy Royal Guard life with all
+        your rich and important friends. I don't ever want to see you again.
     beforeNextFight: []
     nextChapterID: 8
   - name: Maxwell -> Maxwell
@@ -1253,54 +1396,176 @@ MonoBehaviour:
       speaker: 1
       line: Sigh...
     beforeNextFight:
-    - name: 'Eil: Alright, you ready?'
-      speaker: 0
-      line: Alright, you ready?
-    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
-        you?'
+    - name: "Maxwell: Eli? Is that really you? I haven\u2019t seen you in... ten
+        years?"
       speaker: 1
-      line: Aw, cmon, man... Do we always have to spar every time I see you?
-    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      line: "Eli? Is that really you? I haven\u2019t seen you in... ten years?"
+    - name: "Eil: Oh. I wasn\u2019t expecting to see you here today."
       speaker: 0
-      line: 'What''s wrong? Scared you''ll lose? '
-    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
-        per month.'
+      line: "Oh. I wasn\u2019t expecting to see you here today."
+    - name: 'Maxwell: I didn''t know you still lived in the city.'
       speaker: 1
-      line: No, its not that. You know I only get a few days off of training per
-        month.
-    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
-        of the stuff I already spend every day doing. '
-      speaker: 1
-      line: 'I want to spend my time hanging out with you. Not doing more of the
-        stuff I already spend every day doing. '
-    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
-        pants school is a total scam first. '
+      line: I didn't know you still lived in the city.
+    - name: 'Eil: I''m just visiting, actually.'
       speaker: 0
-      line: 'Well, we can do all that. I just have to prove that your fancy pants
-        school is a total scam first. '
-    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
-        pants school, right? '
+      line: I'm just visiting, actually.
+    - name: "Maxwell: Huh. How\u2019s life been? Did you get what you wanted from
+        the \u2018real world\u2019?"
       speaker: 1
-      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
-        right? '
-    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
-        to taste defeat!'
+      line: "Huh. How\u2019s life been? Did you get what you wanted from the \u2018real
+        world\u2019?"
+    - name: "Maxwell: Ready to stop pretending you\u2019re a hardened criminal and
+        be my friend again?"
+      speaker: 1
+      line: "Ready to stop pretending you\u2019re a hardened criminal and be my friend
+        again?"
+    - name: "Eil: God, of course you\u2019d say that. Like everyone else\u2019s life
+        is make believe and only the great Maxwell understands how the world really
+        works."
       speaker: 0
-      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
-        taste defeat!
+      line: "God, of course you\u2019d say that. Like everyone else\u2019s life is
+        make believe and only the great Maxwell understands how the world really
+        works."
+    - name: "Eil: And no, I\u2019m not \u2018done pretending\u2019. I\u2019m here
+        to meet someone. Someone who actually knows a thing or two about the real
+        world. Do you know where the Commander of the royal guard is?"
+      speaker: 0
+      line: "And no, I\u2019m not \u2018done pretending\u2019. I\u2019m here to meet
+        someone. Someone who actually knows a thing or two about the real world.
+        Do you know where the Commander of the royal guard is?"
+    - name: "Maxwell:  ... I do. You\u2019re speaking with him. I got the position
+        three months ago."
+      speaker: 1
+      line: " ... I do. You\u2019re speaking with him. I got the position three months
+        ago."
+    - name: 'Eil: My apologies for your brief term. Draw your blade.'
+      speaker: 0
+      line: My apologies for your brief term. Draw your blade.
     nextChapterID: 6
   - name: Eli -> Maxwell -> Maxwell
     displayName: Eli -> Maxwell -> Maxwell
     ID: 6
     playIfEli: 1
-    afterFight: []
+    afterFight:
+    - name: 'Eil: *cough* Get back here you- *cough* You little- uhg...'
+      speaker: 0
+      line: '*cough* Get back here you- *cough* You little- uhg...'
+    - name: 'Maxwell: That''s enough. You''re under arrest for attacking a member
+        of the Royal Guard.'
+      speaker: 1
+      line: That's enough. You're under arrest for attacking a member of the Royal
+        Guard.
+    - name: 'Eil: Would it... kill you to talk like a person? Not like a mindless...
+        government... drone?
+
+        Maxwell: Sigh...'
+      speaker: 0
+      line: 'Would it... kill you to talk like a person? Not like a mindless... government...
+        drone?
+
+        Maxwell: Sigh...'
+    - name: 'Maxwell: Eli. I know you have your reservations about the guard. But
+        all your life you''ve gone your own way, doing exactly what you want without
+        a thought for others.'
+      speaker: 1
+      line: Eli. I know you have your reservations about the guard. But all your
+        life you've gone your own way, doing exactly what you want without a thought
+        for others.
+    - name: 'Maxwell: Hurting yourself is one thing. But you''re hurting everyone
+        around you too. Killing innocent and guilty people indiscriminately for money. '
+      speaker: 1
+      line: 'Hurting yourself is one thing. But you''re hurting everyone around you
+        too. Killing innocent and guilty people indiscriminately for money. '
+    - name: 'Eil: Uhg, I don''t want to hear about morals from a guy who''s had everything
+        handed to him his entire life. Spare me the lecture and take me away already...'
+      speaker: 0
+      line: Uhg, I don't want to hear about morals from a guy who's had everything
+        handed to him his entire life. Spare me the lecture and take me away already...
+    - name: 'Maxwell: Listen to me. Sellswords like you don''t live very long. You''re
+        lucky you ran into me before you met an untimely demise. '
+      speaker: 1
+      line: 'Listen to me. Sellswords like you don''t live very long. You''re lucky
+        you ran into me before you met an untimely demise. '
+    - name: 'Eil: Quit acting like you care about me. I know you don''t. You never
+        have, you''ve only ever cared about yourself and your stupid Royal-'
+      speaker: 0
+      line: Quit acting like you care about me. I know you don't. You never have,
+        you've only ever cared about yourself and your stupid Royal-
+    - name: 'Maxwell: The punishment for your crimes would be death, Eli. I''m showing
+        you mercy. '
+      speaker: 1
+      line: 'The punishment for your crimes would be death, Eli. I''m showing you
+        mercy. '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: You''re going to prison. And you''re staying there until you
+        accept that you don''t always know what''s best for you.'
+      speaker: 1
+      line: You're going to prison. And you're staying there until you accept that
+        you don't always know what's best for you.
     beforeNextFight: []
     nextChapterID: 13
   - name: Eli -> Maxwell -> Eli
     displayName: Eli -> Maxwell -> Eli
     ID: 6
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Maxwell: This... isn''t over-'
+      speaker: 1
+      line: This... isn't over-
+    - name: 'Eil: It isn''t? Because from where I''m standing, you look like you''re
+        a few moments from choking on your own blood.'
+      speaker: 0
+      line: It isn't? Because from where I'm standing, you look like you're a few
+        moments from choking on your own blood.
+    - name: 'Maxwell: Oh god..'
+      speaker: 1
+      line: Oh god..
+    - name: 'Maxwell: E-Eli... what have you done?'
+      speaker: 1
+      line: E-Eli... what have you done?
+    - name: 'Eil: What I''ve been meaning to do for years. You''ve always had everything
+        handed to you growing up, and what are you now? Another mindless thrall eagerly
+        serving your master. '
+      speaker: 0
+      line: 'What I''ve been meaning to do for years. You''ve always had everything
+        handed to you growing up, and what are you now? Another mindless thrall eagerly
+        serving your master. '
+    - name: 'Maxwell: But we were- I thought we were friends...'
+      speaker: 1
+      line: But we were- I thought we were friends...
+    - name: 'Eil: Friends? Sure, maybe when I was young and stupid. '
+      speaker: 0
+      line: 'Friends? Sure, maybe when I was young and stupid. '
+    - name: 'Eil: But as I got older I realized that it was always about you. About
+        your future and what you were going to achieve. You were never there for
+        me. '
+      speaker: 0
+      line: 'But as I got older I realized that it was always about you. About your
+        future and what you were going to achieve. You were never there for me. '
+    - name: 'Maxwell: N-no...'
+      speaker: 1
+      line: N-no...
+    - name: 'Eil: And then when I finally decide to find my own path, one without
+        your stupid Royal Guards, what do you do? You mock me!'
+      speaker: 0
+      line: And then when I finally decide to find my own path, one without your
+        stupid Royal Guards, what do you do? You mock me!
+    - name: 'Eil: I haven''t seen you in a decade and you couldn''t hold your tongue
+        for even a second.'
+      speaker: 0
+      line: I haven't seen you in a decade and you couldn't hold your tongue for
+        even a second.
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: The world is better without you in it.'
+      speaker: 0
+      line: The world is better without you in it.
+    - name: 'Eil: Hard to believe no one actually paid me to kill you.'
+      speaker: 0
+      line: Hard to believe no one actually paid me to kill you.
     beforeNextFight: []
     nextChapterID: 14
   waitTime: 0
