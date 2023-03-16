@@ -306,6 +306,195 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0.000015259, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &95183677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 95183678}
+  - component: {fileID: 95183684}
+  - component: {fileID: 95183683}
+  - component: {fileID: 95183682}
+  - component: {fileID: 95183681}
+  - component: {fileID: 95183680}
+  - component: {fileID: 95183679}
+  m_Layer: 5
+  m_Name: resume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &95183678
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.61966884, y: 0.61966884, z: 0.61966884}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1389071854}
+  - {fileID: 148167182}
+  - {fileID: 436926722}
+  - {fileID: 1112714318}
+  - {fileID: 740219754}
+  m_Father: {fileID: 1303092737}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -15}
+  m_SizeDelta: {x: 233.8922, y: 56.6012}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &95183679
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 68702da468e20504aa9508db364cbf7a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &95183680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!114 &95183681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.29411766, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
+--- !u!114 &95183682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.8117647, g: 0.58431375, b: 0.14117648, a: 1}
+    m_HighlightedColor: {r: 0.9056604, g: 0.73323214, b: 0.3972944, a: 1}
+    m_PressedColor: {r: 0.9811321, g: 0.8855821, b: 0.69882524, a: 1}
+    m_SelectedColor: {r: 0.90588236, g: 0.73333335, b: 0.39607844, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 95183683}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1261009090}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: UnpauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &95183683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &95183684
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95183677}
+  m_CullTransparentMesh: 1
 --- !u!1 &142548078
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,7 +511,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &142548079
 RectTransform:
   m_ObjectHideFlags: 0
@@ -330,19 +519,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142548078}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2081657487}
   - {fileID: 558627295}
-  m_Father: {fileID: 1331239314}
+  m_Father: {fileID: 1031677531}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299, y: -192}
+  m_AnchoredPosition: {x: 299, y: -203}
   m_SizeDelta: {x: 128.8127, y: 64.0475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142548080
@@ -359,6 +548,217 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpBar: {fileID: 558627296}
   player: {fileID: 0}
+--- !u!1 &145364299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 145364300}
+  - component: {fileID: 145364302}
+  - component: {fileID: 145364301}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &145364300
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145364299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.95, y: 0.95, z: 0.95}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2112746546}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &145364301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145364299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: main menu
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 368afa19b9aa4724b8e72fb62f07e6b8, type: 2}
+  m_sharedMaterial: {fileID: -2771197117025549474, guid: 368afa19b9aa4724b8e72fb62f07e6b8, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190155
+  m_fontColor: {r: 0.29411766, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 31
+  m_fontSizeBase: 31
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &145364302
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145364299}
+  m_CullTransparentMesh: 1
+--- !u!1 &148167181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 148167182}
+  - component: {fileID: 148167184}
+  - component: {fileID: 148167183}
+  m_Layer: 5
+  m_Name: shine (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &148167182
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148167181}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3379188, w: 0.9411753}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 95183678}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 44.278, y: 8.4726}
+  m_SizeDelta: {x: 4.8431, y: 150.9648}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &148167183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148167181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.14901961}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &148167184
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148167181}
+  m_CullTransparentMesh: 1
 --- !u!1 &153381620
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 153381621}
   - component: {fileID: 153381622}
+  - component: {fileID: 153381623}
   m_Layer: 5
   m_Name: dialogue
   m_TagString: Untagged
@@ -392,7 +793,7 @@ RectTransform:
   - {fileID: 7635538421861514188}
   - {fileID: 1292074744}
   m_Father: {fileID: 1331239314}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -412,11 +813,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chapters:
-  - name: Start
+  - name: '-1: Start'
     displayName: Start
     ID: -1
     playIfEli: 0
     afterFight:
+    - name: 'Maxwell: Woah!'
+      speaker: 1
+      line: Woah!
     - name: 'Eil: See? The swords are still here right where we hid them.'
       speaker: 0
       line: See? The swords are still here right where we hid them.
@@ -451,7 +855,7 @@ MonoBehaviour:
 '
     beforeNextFight: []
     nextChapterID: 0
-  - name: Maxwell
+  - name: '0: Maxwell'
     displayName: Maxwell
     ID: 0
     playIfEli: 1
@@ -535,92 +939,7 @@ MonoBehaviour:
       speaker: 1
       line: 'Huh? Fight for real? What are you- hey, stop it!- '
     nextChapterID: 1
-  - name: Maxwell -> Eli
-    displayName: Maxwell -> Eli
-    ID: 1
-    playIfEli: 0
-    afterFight:
-    - name: 'Maxwell: Ow- stop, stop!'
-      speaker: 1
-      line: Ow- stop, stop!
-    - name: 'Eil: What- pick your sword up, we aren''t finished!'
-      speaker: 0
-      line: What- pick your sword up, we aren't finished!
-    - name: 'Maxwell: Get away from me! You''re hurting me for real!'
-      speaker: 1
-      line: Get away from me! You're hurting me for real!
-    - name: 'Eil: ...'
-      speaker: 0
-      line: ...
-    - name: 'Maxwell: ... I''m sorry. I didn''t mean to push you that hard. '
-      speaker: 1
-      line: '... I''m sorry. I didn''t mean to push you that hard. '
-    - name: 'Eil: Don''t give me that face! You''re looking at me like you think
-        I''m some sort of monster!'
-      speaker: 0
-      line: Don't give me that face! You're looking at me like you think I'm some
-        sort of monster!
-    - name: 'Maxwell: I think you don''t know your own strength sometimes! Eli, I''m
-        bleeding-'
-      speaker: 1
-      line: I think you don't know your own strength sometimes! Eli, I'm bleeding-
-    - name: 'Eil: Yeah? Did you think this would be sunshine and rainbows? That you''d
-        never get hurt being a member of the Royal Guard?'
-      speaker: 0
-      line: Yeah? Did you think this would be sunshine and rainbows? That you'd never
-        get hurt being a member of the Royal Guard?
-    - name: 'Maxwell: No! Of course not. I just didn''t think that the person hurting
-        me would be my friend. '
-      speaker: 1
-      line: 'No! Of course not. I just didn''t think that the person hurting me would
-        be my friend. '
-    - name: 'Eil: ...'
-      speaker: 0
-      line: ...
-    - name: 'Maxwell: You''re... Eli, you''re my friend. But you''re out of control.
-        You''re constantly hurting people in training.'
-      speaker: 1
-      line: You're... Eli, you're my friend. But you're out of control. You're constantly
-        hurting people in training.
-    - name: 'Eil: They should be better prepared. Nobody''s going to pull their punches
-        in the real world.'
-      speaker: 0
-      line: They should be better prepared. Nobody's going to pull their punches
-        in the real world.
-    - name: 'Maxwell: Do you hear yourself? If you can''t control yourself in a fight,
-        you''re going to get kicked out.'
-      speaker: 1
-      line: Do you hear yourself? If you can't control yourself in a fight, you're
-        going to get kicked out.
-    - name: 'Eil: Well. Maybe I don''t belong here then. '
-      speaker: 0
-      line: 'Well. Maybe I don''t belong here then. '
-    - name: 'Maxwell: That''s not what I meant-'
-      speaker: 1
-      line: That's not what I meant-
-    - name: 'Eil: No. You all are only holding me back. I need to get out of here.'
-      speaker: 0
-      line: No. You all are only holding me back. I need to get out of here.
-    - name: 'Maxwell: Eli- ouch, wait! Where are you going?'
-      speaker: 1
-      line: Eli- ouch, wait! Where are you going?
-    beforeNextFight: []
-    nextChapterID: 3
-  - name: Maxwell -> Eli -> Maxwell
-    displayName: Maxwell -> Eli -> Maxwell
-    ID: 3
-    playIfEli: 1
-    afterFight: []
-    beforeNextFight: []
-    nextChapterID: 7
-  - name: Maxwell -> Eli -> Eli
-    displayName: Maxwell -> Eli -> Eli
-    ID: 3
-    playIfEli: 0
-    afterFight: []
-    beforeNextFight: []
-    nextChapterID: 8
-  - name: Maxwell -> Maxwell
+  - name: '1: Maxwell -> Maxwell'
     displayName: Maxwell -> Maxwell
     ID: 1
     playIfEli: 1
@@ -689,23 +1008,395 @@ MonoBehaviour:
       line: 'Eli, come back-!
 
 '
-    beforeNextFight: []
+    beforeNextFight:
+    - name: 'Maxwell: ... Eli? Is that you?'
+      speaker: 1
+      line: ... Eli? Is that you?
+    - name: 'Eil: Maxwell. I see you''ve risen through the ranks.'
+      speaker: 0
+      line: Maxwell. I see you've risen through the ranks.
+    - name: 'Maxwell: So have you...'
+      speaker: 1
+      line: So have you...
+    - name: 'Maxwell: Is this where you''ve been all these years? Helping our enemy?'
+      speaker: 1
+      line: Is this where you've been all these years? Helping our enemy?
+    - name: 'Eil: Your enemy, Maxwell. Redcliff and their armies outmatch yours.
+        You''d be wise to surrender.'
+      speaker: 0
+      line: Your enemy, Maxwell. Redcliff and their armies outmatch yours. You'd
+        be wise to surrender.
+    - name: 'Maxwell: Redcliff will enslave our people- don''t you understand that?
+        Whatever glory you''re after isn''t worth all the lives that will be lost.'
+      speaker: 1
+      line: Redcliff will enslave our people- don't you understand that? Whatever
+        glory you're after isn't worth all the lives that will be lost.
+    - name: 'Eil: More lives will be lost if you continue resisting.'
+      speaker: 0
+      line: More lives will be lost if you continue resisting.
+    - name: 'Maxwell: Eli. You don''t have to do this.'
+      speaker: 1
+      line: Eli. You don't have to do this.
+    - name: 'Eil: ... Fine. Don''t say I didn''t warn you.'
+      speaker: 0
+      line: ... Fine. Don't say I didn't warn you.
     nextChapterID: 4
-  - name: Maxwell -> Maxwell -> Maxwell
-    displayName: Maxwell -> Maxwell -> Maxwell
-    ID: 4
-    playIfEli: 1
-    afterFight: []
-    beforeNextFight: []
-    nextChapterID: 9
-  - name: Maxwell -> Maxwell -> Eli
+  - name: '4: Maxwell -> Maxwell -> Eli'
     displayName: Maxwell -> Maxwell -> Eli
     ID: 4
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Eil: Hah- I did it. I finally did it. '
+      speaker: 0
+      line: 'Hah- I did it. I finally did it. '
+    - name: 'Maxwell: *cough* *cough*'
+      speaker: 1
+      line: '*cough* *cough*'
+    - name: 'Eil: After all these years. I beat you. I''m stronger than you. '
+      speaker: 0
+      line: 'After all these years. I beat you. I''m stronger than you. '
+    - name: 'Maxwell: All this... just to prove your strength?'
+      speaker: 1
+      line: All this... just to prove your strength?
+    - name: 'Eil: You couldn''t understand. All my life I''ve been trying to prove
+        myself, only for you to outshine me at every opportunity. '
+      speaker: 0
+      line: 'You couldn''t understand. All my life I''ve been trying to prove myself,
+        only for you to outshine me at every opportunity. '
+    - name: 'Eil: But now I''ve done it. I''ll lead my people to victory. They''ll
+        remember me as a hero.'
+      speaker: 0
+      line: But now I've done it. I'll lead my people to victory. They'll remember
+        me as a hero.
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Maxwell: Will it be worth it when you''re all alone?'
+      speaker: 1
+      line: Will it be worth it when you're all alone?
+    - name: 'Eil: What?...'
+      speaker: 0
+      line: What?...
+    - name: 'Maxwell:  I never wanted to make you feel small. Like we were rivals.
+        I just wanted... *cough* to be your friend. '
+      speaker: 1
+      line: ' I never wanted to make you feel small. Like we were rivals. I just
+        wanted... *cough* to be your friend. '
+    - name: 'Maxwell: I thought we were friends...'
+      speaker: 1
+      line: I thought we were friends...
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: ... Max?...'
+      speaker: 0
+      line: ... Max?...
+    - name: 'Eil: Max- Max, get up-'
+      speaker: 0
+      line: Max- Max, get up-
     beforeNextFight: []
     nextChapterID: 10
-  - name: Eli
+  - name: '4: Maxwell -> Maxwell -> Maxwell'
+    displayName: Maxwell -> Maxwell -> Maxwell
+    ID: 4
+    playIfEli: 1
+    afterFight:
+    - name: 'Eil: Ack!-'
+      speaker: 0
+      line: Ack!-
+    - name: 'Eil: No, NO! It''s not fair! No matter what I do, I can''t win against
+        you!'
+      speaker: 0
+      line: No, NO! It's not fair! No matter what I do, I can't win against you!
+    - name: 'Maxwell: Is that what all this is about? Beating me?'
+      speaker: 1
+      line: Is that what all this is about? Beating me?
+    - name: 'Eil: You don''t understand! You don''t understand what it''s like to
+        lose over and over again. Just once, I wanted to win. '
+      speaker: 0
+      line: 'You don''t understand! You don''t understand what it''s like to lose
+        over and over again. Just once, I wanted to win. '
+    - name: 'Maxwell: You would betray your country just to get back at me? I thought
+        we were friends.'
+      speaker: 1
+      line: You would betray your country just to get back at me? I thought we were
+        friends.
+    - name: 'Eil:  It''s not about- Uhg. I wanted to be someone important like you.
+        The best at something. I was tired of being in your shadow all the time.'
+      speaker: 0
+      line: ' It''s not about- Uhg. I wanted to be someone important like you. The
+        best at something. I was tired of being in your shadow all the time.'
+    - name: 'Eil:  I got so caught up in trying to do that... I didn''t stop to think
+        about what I was doing. Joining Redcliff and all. '
+      speaker: 0
+      line: ' I got so caught up in trying to do that... I didn''t stop to think
+        about what I was doing. Joining Redcliff and all. '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: Just kill me. I''ll never be strong enough.'
+      speaker: 0
+      line: Just kill me. I'll never be strong enough.
+    - name: 'Maxwell: That''s not true. You''re strong in your own way.'
+      speaker: 1
+      line: That's not true. You're strong in your own way.
+    - name: 'Eil: Oh, spare me. I''ve failed. There''s nothing left for me now.'
+      speaker: 0
+      line: Oh, spare me. I've failed. There's nothing left for me now.
+    - name: 'Maxwell: You''re a high ranking commander, aren''t you? The information
+        you have would be invaluable to turning the tides.'
+      speaker: 1
+      line: You're a high ranking commander, aren't you? The information you have
+        would be invaluable to turning the tides.
+    - name: 'Maxwell: You''d be a hero, Eli.'
+      speaker: 1
+      line: You'd be a hero, Eli.
+    - name: 'Eil: A hero...?'
+      speaker: 0
+      line: A hero...?
+    - name: 'Maxwell: Please, Eli. Come with me. There''s still a chance for you.'
+      speaker: 1
+      line: Please, Eli. Come with me. There's still a chance for you.
+    - name: 'Eil: ... You''d forgive me?'
+      speaker: 0
+      line: ... You'd forgive me?
+    - name: 'Maxwell: I already have.'
+      speaker: 1
+      line: I already have.
+    - name: 'Maxwell: Let''s go home.'
+      speaker: 1
+      line: Let's go home.
+    beforeNextFight: []
+    nextChapterID: 9
+  - name: '1: Maxwell -> Eli'
+    displayName: Maxwell -> Eli
+    ID: 1
+    playIfEli: 0
+    afterFight:
+    - name: 'Maxwell: Ow- stop, stop!'
+      speaker: 1
+      line: Ow- stop, stop!
+    - name: 'Eil: What- pick your sword up, we aren''t finished!'
+      speaker: 0
+      line: What- pick your sword up, we aren't finished!
+    - name: 'Maxwell: Get away from me! You''re hurting me for real!'
+      speaker: 1
+      line: Get away from me! You're hurting me for real!
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: ... I''m sorry. I didn''t mean to push you that hard. '
+      speaker: 1
+      line: '... I''m sorry. I didn''t mean to push you that hard. '
+    - name: 'Eil: Don''t give me that face! You''re looking at me like you think
+        I''m some sort of monster!'
+      speaker: 0
+      line: Don't give me that face! You're looking at me like you think I'm some
+        sort of monster!
+    - name: 'Maxwell: I think you don''t know your own strength sometimes! Eli, I''m
+        bleeding-'
+      speaker: 1
+      line: I think you don't know your own strength sometimes! Eli, I'm bleeding-
+    - name: 'Eil: Yeah? Did you think this would be sunshine and rainbows? That you''d
+        never get hurt being a member of the Royal Guard?'
+      speaker: 0
+      line: Yeah? Did you think this would be sunshine and rainbows? That you'd never
+        get hurt being a member of the Royal Guard?
+    - name: 'Maxwell: No! Of course not. I just... Eli, everyone is looking at us.
+        You''re embarassing me-'
+      speaker: 1
+      line: No! Of course not. I just... Eli, everyone is looking at us. You're embarassing
+        me-
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: You''re... Eli, you''re my friend. But you''re out of control.
+        You''re constantly hurting people in training.'
+      speaker: 1
+      line: You're... Eli, you're my friend. But you're out of control. You're constantly
+        hurting people in training.
+    - name: 'Eil: Is that what you worried about? Or do you think I''m gonna ruin
+        your squeaky clean reputation?'
+      speaker: 0
+      line: Is that what you worried about? Or do you think I'm gonna ruin your squeaky
+        clean reputation?
+    - name: 'Maxwell: Eli- you have to be more responsible if you''re going to be
+        a part of the guard. There''s high expectations-'
+      speaker: 1
+      line: Eli- you have to be more responsible if you're going to be a part of
+        the guard. There's high expectations-
+    - name: 'Eil: Yeah. You gotta act the part if you wanna be a little rich boy''s
+        soldier. Maybe I don''t just don''t belong here. '
+      speaker: 0
+      line: 'Yeah. You gotta act the part if you wanna be a little rich boy''s soldier.
+        Maybe I don''t just don''t belong here. '
+    - name: 'Maxwell: That''s not what I meant-'
+      speaker: 1
+      line: That's not what I meant-
+    - name: 'Eil: No. You all are only holding me back. I need to get out of here.'
+      speaker: 0
+      line: No. You all are only holding me back. I need to get out of here.
+    - name: 'Maxwell: Eli- ouch, wait! Where are you going?'
+      speaker: 1
+      line: Eli- ouch, wait! Where are you going?
+    beforeNextFight:
+    - name: 'Maxwell: Nowhere left to run.'
+      speaker: 1
+      line: Nowhere left to run.
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: Finally caught you. We''ve been following your heists in the
+        Uptown District...  I didn''t think you''d be dumb enough to try and steal
+        from the king himself. '
+      speaker: 1
+      line: 'Finally caught you. We''ve been following your heists in the Uptown
+        District...  I didn''t think you''d be dumb enough to try and steal from
+        the king himself. '
+    - name: 'Maxwell: You''re under arrest. Surrender now and you''ll be given a
+        fair trial.'
+      speaker: 1
+      line: You're under arrest. Surrender now and you'll be given a fair trial.
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: What, nothing to say for yourself? Another common criminal,
+        devoid of all morals. '
+      speaker: 1
+      line: 'What, nothing to say for yourself? Another common criminal, devoid of
+        all morals. '
+    - name: 'Maxwell: Fine, then. If you won''t come peacefully you leave me no choice.'
+      speaker: 1
+      line: Fine, then. If you won't come peacefully you leave me no choice.
+    nextChapterID: 3
+  - name: '3: Maxwell -> Eli -> Eli'
+    displayName: Maxwell -> Eli -> Eli
+    ID: 3
+    playIfEli: 0
+    afterFight:
+    - name: 'Maxwell: *cough* ... This isn''t the end. Your luck will run out someday,
+        you''ll be... *cough* '
+      speaker: 1
+      line: '*cough* ... This isn''t the end. Your luck will run out someday, you''ll
+        be... *cough* '
+    - name: 'Eil:  ... Look at you... I can''t believe this is what you''ve become.'
+      speaker: 0
+      line: ' ... Look at you... I can''t believe this is what you''ve become.'
+    - name: 'Maxwell: ... Eli...? No, it can''t be-'
+      speaker: 1
+      line: ... Eli...? No, it can't be-
+    - name: 'Eil: I was always jealous of you growing up, you know that? I thought
+        you were so strong and cool.'
+      speaker: 0
+      line: I was always jealous of you growing up, you know that? I thought you
+        were so strong and cool.
+    - name: 'Eil: I wanted to be just like you- I thought we''d be working together
+        in the guard, helping people.'
+      speaker: 0
+      line: I wanted to be just like you- I thought we'd be working together in the
+        guard, helping people.
+    - name: 'Eil: But that place made you just as bad as the rest of them.'
+      speaker: 0
+      line: But that place made you just as bad as the rest of them.
+    - name: 'Maxwell: That''s not- I''m just doing my job! '
+      speaker: 1
+      line: 'That''s not- I''m just doing my job! '
+    - name: 'Eil: Your job is to protect the rich and powerful! The people who need
+        protecting the least!'
+      speaker: 0
+      line: Your job is to protect the rich and powerful! The people who need protecting
+        the least!
+    - name: 'Eil: You throw people in jail for trying to feed themselves while those
+        pricks in the Uptown District have more than they''ll ever need. '
+      speaker: 0
+      line: 'You throw people in jail for trying to feed themselves while those pricks
+        in the Uptown District have more than they''ll ever need. '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: I''m getting out of here. Go live your happy Royal Guard life with
+        all your rich and important friends. I don''t ever want to see you again.'
+      speaker: 0
+      line: I'm getting out of here. Go live your happy Royal Guard life with all
+        your rich and important friends. I don't ever want to see you again.
+    beforeNextFight: []
+    nextChapterID: 8
+  - name: '3: Maxwell -> Eli -> Maxwell'
+    displayName: Maxwell -> Eli -> Maxwell
+    ID: 3
+    playIfEli: 1
+    afterFight:
+    - name: 'Eil: Ow- god, ouch... Oh...'
+      speaker: 0
+      line: Ow- god, ouch... Oh...
+    - name: 'Maxwell:  ... I know that voice- Eli!?'
+      speaker: 1
+      line: ' ... I know that voice- Eli!?'
+    - name: 'Maxwell: Eli, is that you? I haven''t seen you in- what are you doing
+        here? '
+      speaker: 1
+      line: 'Eli, is that you? I haven''t seen you in- what are you doing here? '
+    - name: 'Eil: Does it matter? '
+      speaker: 0
+      line: 'Does it matter? '
+    - name: 'Maxwell: Of course it matters, what are you talking about?'
+      speaker: 1
+      line: Of course it matters, what are you talking about?
+    - name: 'Eil: ... I thought I was another ''common criminal.'' Go on and throw
+        me in jail with the rest of them.'
+      speaker: 0
+      line: ... I thought I was another 'common criminal.' Go on and throw me in
+        jail with the rest of them.
+    - name: 'Maxwell: But... Eli, you''re not a bad person- why are you-'
+      speaker: 1
+      line: But... Eli, you're not a bad person- why are you-
+    - name: 'Eil: Stealing? Sorry if this is news to you, but when you''re broke
+        and starving its hard to avoid being a ''bad person.'' '
+      speaker: 0
+      line: 'Stealing? Sorry if this is news to you, but when you''re broke and starving
+        its hard to avoid being a ''bad person.'' '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: Did you ever stop to question why so many of us turn to crime?
+        That maybe your stupid government cares more about putting people on the
+        streets in jail than feeding them?'
+      speaker: 0
+      line: Did you ever stop to question why so many of us turn to crime? That maybe
+        your stupid government cares more about putting people on the streets in
+        jail than feeding them?
+    - name: "Maxwell: I... No, I want to protect people, that's what I've always-\r"
+      speaker: 1
+      line: "I... No, I want to protect people, that's what I've always-\r"
+    - name: 'Eil: Who are you really protecting? '
+      speaker: 0
+      line: 'Who are you really protecting? '
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Maxwell:  ... Go, run. Get out of here.'
+      speaker: 1
+      line: ' ... Go, run. Get out of here.'
+    - name: 'Eil: ... What? '
+      speaker: 0
+      line: '... What? '
+    - name: 'Maxwell:  I never saw you. You escaped the city. '
+      speaker: 1
+      line: ' I never saw you. You escaped the city. '
+    - name: 'Eil: ... Right. What about you?'
+      speaker: 0
+      line: ... Right. What about you?
+    - name: 'Maxwell:  I''ve... got some thinking to do. I''m sorry. '
+      speaker: 1
+      line: ' I''ve... got some thinking to do. I''m sorry. '
+    - name: 'Maxwell: ... If I ever see you again, I hope I''ll be a person worthy
+        of your forgiveness. '
+      speaker: 1
+      line: '... If I ever see you again, I hope I''ll be a person worthy of your
+        forgiveness. '
+    beforeNextFight: []
+    nextChapterID: 7
+  - name: '0: Eli'
     displayName: Eli
     ID: 0
     playIfEli: 0
@@ -791,7 +1482,7 @@ MonoBehaviour:
       line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
         taste defeat!
     nextChapterID: 2
-  - name: Eli -> Eli
+  - name: '2: Eli -> Eli'
     displayName: Eli -> Eli
     ID: 2
     playIfEli: 0
@@ -874,57 +1565,167 @@ MonoBehaviour:
 
 '
     beforeNextFight:
-    - name: 'Eil: Alright, you ready?'
+    - name: "Eil: ...\r"
       speaker: 0
-      line: Alright, you ready?
-    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
-        you?'
-      speaker: 1
-      line: Aw, cmon, man... Do we always have to spar every time I see you?
-    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      line: "...\r"
+    - name: 'Eil: Get out of my way.'
       speaker: 0
-      line: 'What''s wrong? Scared you''ll lose? '
-    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
-        per month.'
+      line: Get out of my way.
+    - name: 'Maxwell:  I can''t let you do this.'
       speaker: 1
-      line: No, its not that. You know I only get a few days off of training per
-        month.
-    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
-        of the stuff I already spend every day doing. '
-      speaker: 1
-      line: 'I want to spend my time hanging out with you. Not doing more of the
-        stuff I already spend every day doing. '
-    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
-        pants school is a total scam first. '
+      line: ' I can''t let you do this.'
+    - name: 'Eil:  I''m not asking for your permission.'
       speaker: 0
-      line: 'Well, we can do all that. I just have to prove that your fancy pants
-        school is a total scam first. '
-    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
-        pants school, right? '
-      speaker: 1
-      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
-        right? '
-    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
-        to taste defeat!'
+      line: ' I''m not asking for your permission.'
+    - name: 'Eil: Our king has failed us. Our country deserves a leader who will
+        lead us into battle, not cower in his castle.'
       speaker: 0
-      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
-        taste defeat!
+      line: Our king has failed us. Our country deserves a leader who will lead us
+        into battle, not cower in his castle.
+    - name: 'Maxwell: What''s the point? Our country is stable- we can defend ourselves
+        against invaders, why cause unnecessary bloodshed?'
+      speaker: 1
+      line: What's the point? Our country is stable- we can defend ourselves against
+        invaders, why cause unnecessary bloodshed?
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell:  I don''t want to hurt you, Eli, but I will not let you through. '
+      speaker: 1
+      line: ' I don''t want to hurt you, Eli, but I will not let you through. '
+    - name: 'Maxwell: You can turn back now and we''ll never speak of this again.'
+      speaker: 1
+      line: You can turn back now and we'll never speak of this again.
+    - name: 'Eil: You couldn''t ever beat me before. What makes you think you can
+        now?'
+      speaker: 0
+      line: You couldn't ever beat me before. What makes you think you can now?
+    - name: 'Maxwell:  I don''t know if I can. But I''m still going to try.'
+      speaker: 1
+      line: ' I don''t know if I can. But I''m still going to try.'
     nextChapterID: 5
-  - name: Eli -> Eli -> Maxwell
-    displayName: Eli -> Eli -> Maxwell
-    ID: 5
-    playIfEli: 1
-    afterFight: []
-    beforeNextFight: []
-    nextChapterID: 11
-  - name: Eli -> Eli -> Eli
+  - name: '5: Eli -> Eli -> Eli'
     displayName: Eli -> Eli -> Eli
     ID: 5
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Maxwell: *cough* '
+      speaker: 1
+      line: '*cough* '
+    - name: 'Eil: ... That''s it, then. I told you you couldn''t best me. '
+      speaker: 0
+      line: '... That''s it, then. I told you you couldn''t best me. '
+    - name: 'Maxwell: I knew I couldn''t defeat you. You''ve always been stronger
+        than me.'
+      speaker: 1
+      line: I knew I couldn't defeat you. You've always been stronger than me.
+    - name: 'Maxwell: But I still wanted to try... *cough*'
+      speaker: 1
+      line: But I still wanted to try... *cough*
+    - name: 'Eil: You tried and you failed. Was your king worth dying for?'
+      speaker: 0
+      line: You tried and you failed. Was your king worth dying for?
+    - name: 'Maxwell: I wasn''t doing this for the king! I was doing it for you. '
+      speaker: 1
+      line: 'I wasn''t doing this for the king! I was doing it for you. '
+    - name: 'Maxwell:  I wanted to try and... save you. *cough* From what you''re
+        becoming.'
+      speaker: 1
+      line: ' I wanted to try and... save you. *cough* From what you''re becoming.'
+    - name: 'Maxwell: A king that rules with violence and fear... '
+      speaker: 1
+      line: 'A king that rules with violence and fear... '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: Even after... everything, I still... care about you.'
+      speaker: 1
+      line: Even after... everything, I still... care about you.
+    - name: 'Maxwell: I failed you. I''m sorry.'
+      speaker: 1
+      line: I failed you. I'm sorry.
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Eil: ... Max?'
+      speaker: 0
+      line: ... Max?
+    - name: 'Eil: Oh, god.'
+      speaker: 0
+      line: Oh, god.
+    - name: 'Eil: What have I done?'
+      speaker: 0
+      line: What have I done?
     beforeNextFight: []
     nextChapterID: 12
-  - name: Eli -> Maxwell
+  - name: '5: Eli -> Eli -> Maxwell'
+    displayName: Eli -> Eli -> Maxwell
+    ID: 5
+    playIfEli: 1
+    afterFight:
+    - name: 'Eil: *cough* '
+      speaker: 0
+      line: '*cough* '
+    - name: 'Maxwell: ... Stand down. Any more would be fatal.'
+      speaker: 1
+      line: ... Stand down. Any more would be fatal.
+    - name: 'Eil: How- you''ve gotten stronger, how?'
+      speaker: 0
+      line: How- you've gotten stronger, how?
+    - name: 'Maxwell:  I knew you''d come back someday to try and take the crown.'
+      speaker: 1
+      line: ' I knew you''d come back someday to try and take the crown.'
+    - name: 'Maxwell: So I trained. Every day, in hopes that when we met again I''d
+        be able to match your strength.'
+      speaker: 1
+      line: So I trained. Every day, in hopes that when we met again I'd be able
+        to match your strength.
+    - name: 'Eil: ... Go on, then. Get it over with.'
+      speaker: 0
+      line: ... Go on, then. Get it over with.
+    - name: 'Maxwell: I''m not going to kill you, Eli. '
+      speaker: 1
+      line: 'I''m not going to kill you, Eli. '
+    - name: 'Maxwell: We caught wind of your plan before you arrived, the King has
+        evacuated. I''m the only one who knows what happened here.'
+      speaker: 1
+      line: We caught wind of your plan before you arrived, the King has evacuated.
+        I'm the only one who knows what happened here.
+    - name: 'Maxwell: Nobody needs to know it was you... I could get you a job with
+        the guard again...'
+      speaker: 1
+      line: Nobody needs to know it was you... I could get you a job with the guard
+        again...
+    - name: 'Eil: ... You''d really do that? After everything?'
+      speaker: 0
+      line: ... You'd really do that? After everything?
+    - name: 'Maxwell: Of course. '
+      speaker: 1
+      line: 'Of course. '
+    - name: 'Eil: ... I don''t deserve that.'
+      speaker: 0
+      line: ... I don't deserve that.
+    - name: 'Maxwell: Maybe not. But you''re still my friend.'
+      speaker: 1
+      line: Maybe not. But you're still my friend.
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: I missed you.'
+      speaker: 1
+      line: I missed you.
+    - name: 'Eil: ... I missed you too.'
+      speaker: 0
+      line: ... I missed you too.
+    - name: 'Maxwell: Come on, take my hand. Let''s go get you patched up.'
+      speaker: 1
+      line: Come on, take my hand. Let's go get you patched up.
+    beforeNextFight: []
+    nextChapterID: 11
+  - name: '2: Eli -> Maxwell'
     displayName: Eli -> Maxwell
     ID: 2
     playIfEli: 1
@@ -999,58 +1800,207 @@ MonoBehaviour:
       speaker: 1
       line: Sigh...
     beforeNextFight:
-    - name: 'Eil: Alright, you ready?'
-      speaker: 0
-      line: Alright, you ready?
-    - name: 'Maxwell: Aw, cmon, man... Do we always have to spar every time I see
-        you?'
+    - name: "Maxwell: Eli? Is that really you? I haven\u2019t seen you in... ten
+        years?"
       speaker: 1
-      line: Aw, cmon, man... Do we always have to spar every time I see you?
-    - name: 'Eil: What''s wrong? Scared you''ll lose? '
+      line: "Eli? Is that really you? I haven\u2019t seen you in... ten years?"
+    - name: "Eil: Oh. I wasn\u2019t expecting to see you here today."
       speaker: 0
-      line: 'What''s wrong? Scared you''ll lose? '
-    - name: 'Maxwell: No, its not that. You know I only get a few days off of training
-        per month.'
+      line: "Oh. I wasn\u2019t expecting to see you here today."
+    - name: 'Maxwell: I didn''t know you still lived in the city.'
       speaker: 1
-      line: No, its not that. You know I only get a few days off of training per
-        month.
-    - name: 'Maxwell: I want to spend my time hanging out with you. Not doing more
-        of the stuff I already spend every day doing. '
-      speaker: 1
-      line: 'I want to spend my time hanging out with you. Not doing more of the
-        stuff I already spend every day doing. '
-    - name: 'Eil: Well, we can do all that. I just have to prove that your fancy
-        pants school is a total scam first. '
+      line: I didn't know you still lived in the city.
+    - name: 'Eil: I''m just visiting, actually.'
       speaker: 0
-      line: 'Well, we can do all that. I just have to prove that your fancy pants
-        school is a total scam first. '
-    - name: 'Maxwell: You know you''re probably good enough to ENROLL in my fancy
-        pants school, right? '
+      line: I'm just visiting, actually.
+    - name: "Maxwell: Huh. How\u2019s life been? Did you get what you wanted from
+        the \u2018real world\u2019?"
       speaker: 1
-      line: 'You know you''re probably good enough to ENROLL in my fancy pants school,
-        right? '
-    - name: 'Eil: Only PROBABLY? I take offense to that. Draw your blade and prepare
-        to taste defeat!'
+      line: "Huh. How\u2019s life been? Did you get what you wanted from the \u2018real
+        world\u2019?"
+    - name: "Maxwell: Ready to stop pretending you\u2019re a hardened criminal and
+        be my friend again?"
+      speaker: 1
+      line: "Ready to stop pretending you\u2019re a hardened criminal and be my friend
+        again?"
+    - name: "Eil: God, of course you\u2019d say that. Like everyone else\u2019s life
+        is make believe and only the great Maxwell understands how the world really
+        works."
       speaker: 0
-      line: Only PROBABLY? I take offense to that. Draw your blade and prepare to
-        taste defeat!
+      line: "God, of course you\u2019d say that. Like everyone else\u2019s life is
+        make believe and only the great Maxwell understands how the world really
+        works."
+    - name: "Eil: And no, I\u2019m not \u2018done pretending\u2019. I\u2019m here
+        to meet someone. Someone who actually knows a thing or two about the real
+        world. Do you know where the Commander of the royal guard is?"
+      speaker: 0
+      line: "And no, I\u2019m not \u2018done pretending\u2019. I\u2019m here to meet
+        someone. Someone who actually knows a thing or two about the real world.
+        Do you know where the Commander of the royal guard is?"
+    - name: "Maxwell:  ... I do. You\u2019re speaking with him. I got the position
+        three months ago."
+      speaker: 1
+      line: " ... I do. You\u2019re speaking with him. I got the position three months
+        ago."
+    - name: 'Eil: My apologies for your brief term. Draw your blade.'
+      speaker: 0
+      line: My apologies for your brief term. Draw your blade.
     nextChapterID: 6
-  - name: Eli -> Maxwell -> Maxwell
-    displayName: Eli -> Maxwell -> Maxwell
-    ID: 6
-    playIfEli: 1
-    afterFight: []
-    beforeNextFight: []
-    nextChapterID: 13
-  - name: Eli -> Maxwell -> Eli
+  - name: '6: Eli -> Maxwell -> Eli'
     displayName: Eli -> Maxwell -> Eli
     ID: 6
     playIfEli: 0
-    afterFight: []
+    afterFight:
+    - name: 'Maxwell: This... isn''t over-'
+      speaker: 1
+      line: This... isn't over-
+    - name: 'Eil: It isn''t? Because from where I''m standing, you look like you''re
+        a few moments from choking on your own blood.'
+      speaker: 0
+      line: It isn't? Because from where I'm standing, you look like you're a few
+        moments from choking on your own blood.
+    - name: 'Maxwell: Oh god..'
+      speaker: 1
+      line: Oh god..
+    - name: 'Maxwell: E-Eli... what have you done?'
+      speaker: 1
+      line: E-Eli... what have you done?
+    - name: 'Eil: What I''ve been meaning to do for years. You''ve always had everything
+        handed to you growing up, and what are you now? Another mindless thrall eagerly
+        serving your master. '
+      speaker: 0
+      line: 'What I''ve been meaning to do for years. You''ve always had everything
+        handed to you growing up, and what are you now? Another mindless thrall eagerly
+        serving your master. '
+    - name: 'Maxwell: But we were- I thought we were friends...'
+      speaker: 1
+      line: But we were- I thought we were friends...
+    - name: 'Eil: Friends? Sure, maybe when I was young and stupid. '
+      speaker: 0
+      line: 'Friends? Sure, maybe when I was young and stupid. '
+    - name: 'Eil: But as I got older I realized that it was always about you. About
+        your future and what you were going to achieve. You were never there for
+        me. '
+      speaker: 0
+      line: 'But as I got older I realized that it was always about you. About your
+        future and what you were going to achieve. You were never there for me. '
+    - name: 'Maxwell: N-no...'
+      speaker: 1
+      line: N-no...
+    - name: 'Eil: And then when I finally decide to find my own path, one without
+        your stupid Royal Guards, what do you do? You mock me!'
+      speaker: 0
+      line: And then when I finally decide to find my own path, one without your
+        stupid Royal Guards, what do you do? You mock me!
+    - name: 'Eil: I haven''t seen you in a decade and you couldn''t hold your tongue
+        for even a second.'
+      speaker: 0
+      line: I haven't seen you in a decade and you couldn't hold your tongue for
+        even a second.
+    - name: 'Maxwell: ...'
+      speaker: 1
+      line: ...
+    - name: 'Eil: The world is better without you in it.'
+      speaker: 0
+      line: The world is better without you in it.
+    - name: 'Eil: Hard to believe no one actually paid me to kill you.'
+      speaker: 0
+      line: Hard to believe no one actually paid me to kill you.
     beforeNextFight: []
     nextChapterID: 14
+  - name: '6: Eli -> Maxwell -> Maxwell'
+    displayName: Eli -> Maxwell -> Maxwell
+    ID: 6
+    playIfEli: 1
+    afterFight:
+    - name: 'Eil: *cough* Get back here you- *cough* You little- uhg...'
+      speaker: 0
+      line: '*cough* Get back here you- *cough* You little- uhg...'
+    - name: 'Maxwell: That''s enough. You''re under arrest for attacking a member
+        of the Royal Guard.'
+      speaker: 1
+      line: That's enough. You're under arrest for attacking a member of the Royal
+        Guard.
+    - name: 'Eil: Would it... kill you to talk like a person? Not like a mindless...
+        government... drone?
+
+        Maxwell: Sigh...'
+      speaker: 0
+      line: 'Would it... kill you to talk like a person? Not like a mindless... government...
+        drone?
+
+        Maxwell: Sigh...'
+    - name: 'Maxwell: Eli. I know you have your reservations about the guard. But
+        all your life you''ve gone your own way, doing exactly what you want without
+        a thought for others.'
+      speaker: 1
+      line: Eli. I know you have your reservations about the guard. But all your
+        life you've gone your own way, doing exactly what you want without a thought
+        for others.
+    - name: 'Maxwell: Hurting yourself is one thing. But you''re hurting everyone
+        around you too. Killing innocent and guilty people indiscriminately for money. '
+      speaker: 1
+      line: 'Hurting yourself is one thing. But you''re hurting everyone around you
+        too. Killing innocent and guilty people indiscriminately for money. '
+    - name: 'Eil: Uhg, I don''t want to hear about morals from a guy who''s had everything
+        handed to him his entire life. Spare me the lecture and take me away already...'
+      speaker: 0
+      line: Uhg, I don't want to hear about morals from a guy who's had everything
+        handed to him his entire life. Spare me the lecture and take me away already...
+    - name: 'Maxwell: Listen to me. Sellswords like you don''t live very long. You''re
+        lucky you ran into me before you met an untimely demise. '
+      speaker: 1
+      line: 'Listen to me. Sellswords like you don''t live very long. You''re lucky
+        you ran into me before you met an untimely demise. '
+    - name: 'Eil: Quit acting like you care about me. I know you don''t. You never
+        have, you''ve only ever cared about yourself and your stupid Royal-'
+      speaker: 0
+      line: Quit acting like you care about me. I know you don't. You never have,
+        you've only ever cared about yourself and your stupid Royal-
+    - name: 'Maxwell: The punishment for your crimes would be death, Eli. I''m showing
+        you mercy. '
+      speaker: 1
+      line: 'The punishment for your crimes would be death, Eli. I''m showing you
+        mercy. '
+    - name: 'Eil: ...'
+      speaker: 0
+      line: ...
+    - name: 'Maxwell: You''re going to prison. And you''re staying there until you
+        accept that you don''t always know what''s best for you.'
+      speaker: 1
+      line: You're going to prison. And you're staying there until you accept that
+        you don't always know what's best for you.
+    beforeNextFight: []
+    nextChapterID: 13
+  backgrounds:
+  - name: '0: forest'
+    sprite: {fileID: 21300000, guid: 4e6e68608546a9141a9692e9784b6a2f, type: 3}
+    groundSprite: {fileID: 21300000, guid: 9deeb90663301b247bc0d8ed5157eeb1, type: 3}
+  - name: '1: training grounds'
+    sprite: {fileID: 21300000, guid: 192ce9dfec39a5749899faf66c1516c2, type: 3}
+    groundSprite: {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
+  - name: '2: street outside castle'
+    sprite: {fileID: 21300000, guid: f2458cc9f9bb92a428c1e62a08be89e1, type: 3}
+    groundSprite: {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
+  - name: '3: dark alley'
+    sprite: {fileID: 21300000, guid: dcf038873e0faf64a87b6f78800b70ae, type: 3}
+    groundSprite: {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
+  - name: '4: battlefield'
+    sprite: {fileID: 21300000, guid: 884fd8d9652d0f74191b1f65260ffcef, type: 3}
+    groundSprite: {fileID: 21300000, guid: 9deeb90663301b247bc0d8ed5157eeb1, type: 3}
+  - name: '5: throne room'
+    sprite: {fileID: 21300000, guid: 850ff66b53a76d24fad4a62c8fe8e564, type: 3}
+    groundSprite: {fileID: 21300000, guid: 43a97ebcdb0cfff44b608bcb3b8b7a3e, type: 3}
+  - name: '6: city walls'
+    sprite: {fileID: 21300000, guid: 6e669da3928003248b09ea0571f2ddf5, type: 3}
+    groundSprite: {fileID: 21300000, guid: 43a97ebcdb0cfff44b608bcb3b8b7a3e, type: 3}
+  background: {fileID: 1559205109}
+  floors:
+  - {fileID: 834767709}
+  - {fileID: 1055428849}
+  - {fileID: 1834179899}
   waitTime: 0
-  textSpeed: 0.01
+  textSpeed: 0.02
   currChap:
     name: 
     displayName: 
@@ -1070,10 +2020,112 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7398c2ce2f709604ba747f59efc0fa36, type: 3}
   - {fileID: 21300000, guid: ec35a726669a42c42a2314ddb90cf998, type: 3}
   elis:
-  - {fileID: 21300000, guid: fb574bd70fdb9874681aea1fb696be58, type: 3}
-  - {fileID: 21300000, guid: 280451569b5fd6f48a538a0b0dd4fe12, type: 3}
-  - {fileID: 21300000, guid: c88bf52a6f88ccf429c59b78f813393c, type: 3}
-  chapID: -1
+  - {fileID: 21300000, guid: 9e4a52a95db5bc742826f29fcdb2e270, type: 3}
+  - {fileID: 21300000, guid: 8624ac6277b848c4d86155824b88aa1e, type: 3}
+  - {fileID: 21300000, guid: d9ac7ba15563a224bb2b5e7e9288a2f9, type: 3}
+  blackWipe: {fileID: 454190347}
+  wipeLeftRightPos: {x: -1350, y: 1350}
+  source: {fileID: 153381623}
+  eliSpeak: {fileID: 8300000, guid: 5a42298e21d29b34f8efc77e7d8eed9f, type: 3}
+  maxSpeak: {fileID: 8300000, guid: 6ee951a512e1d6b4895e8d647b6d068a, type: 3}
+  pitchRange: 0.1
+  textVol: 0.7
+--- !u!82 &153381623
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153381620}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &271206407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,7 +2160,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1125,7 +2177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.03875834, b: 0, a: 1}
+  m_Color: {r: 0.6981132, g: 0.35834754, b: 0.3457636, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1266,6 +2318,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &436926721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436926722}
+  - component: {fileID: 436926724}
+  - component: {fileID: 436926723}
+  m_Layer: 5
+  m_Name: shine (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &436926722
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436926721}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3379188, w: 0.9411753}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 95183678}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 222, y: 8.4726}
+  m_SizeDelta: {x: 79.9968, y: 150.9648}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &436926723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436926721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.14901961}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &436926724
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436926721}
+  m_CullTransparentMesh: 1
 --- !u!1 &450483849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,6 +2435,82 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &454190347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454190348}
+  - component: {fileID: 454190350}
+  - component: {fileID: 454190349}
+  m_Layer: 5
+  m_Name: black wipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &454190348
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454190347}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1331239314}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1350, y: 0}
+  m_SizeDelta: {x: 1687.031, y: 450}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &454190349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454190347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: dcf5548b852922c4f94acd74ff2b3df7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &454190350
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454190347}
+  m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +3041,7 @@ GameObject:
   - component: {fileID: 665753799}
   - component: {fileID: 665753798}
   m_Layer: 0
-  m_Name: leftWall (1)
+  m_Name: rightWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1871,7 +3075,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.033298776, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1882,7 +3086,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.0665975, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &665753799
 SpriteRenderer:
@@ -1982,7 +3186,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.01594752, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1993,7 +3197,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.0318949, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &708092502
 SpriteRenderer:
@@ -2047,6 +3251,141 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &740219753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 740219754}
+  - component: {fileID: 740219756}
+  - component: {fileID: 740219755}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &740219754
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740219753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 95183678}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &740219755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740219753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: resume
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 368afa19b9aa4724b8e72fb62f07e6b8, type: 2}
+  m_sharedMaterial: {fileID: -2771197117025549474, guid: 368afa19b9aa4724b8e72fb62f07e6b8, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190155
+  m_fontColor: {r: 0.29411766, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 31
+  m_fontSizeBase: 31
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &740219756
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740219753}
+  m_CullTransparentMesh: 1
 --- !u!114 &790639570 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4204688716514165450, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
@@ -2372,15 +3711,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: d089ce7beb8e6d4458a6846a7205846a, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2397,6 +3736,178 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851486730}
   m_CullTransparentMesh: 1
+--- !u!1 &918582499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918582500}
+  m_Layer: 5
+  m_Name: tutPrompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &918582500
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918582499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1076230432}
+  m_Father: {fileID: 1331239314}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1021830047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021830048}
+  - component: {fileID: 1021830051}
+  - component: {fileID: 1021830050}
+  - component: {fileID: 1021830049}
+  m_Layer: 5
+  m_Name: intro wipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1021830048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021830047}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1331239314}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1687.031, y: 450}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1021830049
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021830047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56d71f151b51c924388ecb6f8d10780c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1021830050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021830047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: dcf5548b852922c4f94acd74ff2b3df7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1021830051
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021830047}
+  m_CullTransparentMesh: 1
+--- !u!1 &1031677530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031677531}
+  m_Layer: 5
+  m_Name: HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1031677531
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031677530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 142548079}
+  - {fileID: 1168278102}
+  m_Father: {fileID: 1331239314}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1055428846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,6 +3992,238 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1076230431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1076230432}
+  - component: {fileID: 1076230435}
+  - component: {fileID: 1076230434}
+  - component: {fileID: 1076230433}
+  m_Layer: 5
+  m_Name: tutorialPrompt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1076230432
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076230431}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 918582500}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 116}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1076230433
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076230431}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2cb5bcbda7a3d5f46b20318adac25dca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1076230434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076230431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Press x to dash
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 29b2205e079262b42ad4d5ff32262cf8, type: 2}
+  m_sharedMaterial: {fileID: 8942316234524430777, guid: 29b2205e079262b42ad4d5ff32262cf8, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 47.7
+  m_fontSizeBase: 47.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1076230435
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076230431}
+  m_CullTransparentMesh: 1
+--- !u!1 &1112714317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112714318}
+  - component: {fileID: 1112714320}
+  - component: {fileID: 1112714319}
+  m_Layer: 5
+  m_Name: shine (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1112714318
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112714317}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8945562, w: 0.44695544}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 95183678}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 126.903}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 78, y: 0}
+  m_SizeDelta: {x: 79.9968, y: 150.9648}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1112714319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112714317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1112714320
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112714317}
+  m_CullTransparentMesh: 1
 --- !u!1 &1168278101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,7 +4240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1168278102
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2505,19 +4248,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168278101}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 69267462}
   - {fileID: 1183380132}
-  m_Father: {fileID: 1331239314}
+  m_Father: {fileID: 1031677531}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -297, y: -192}
+  m_AnchoredPosition: {x: -297, y: -203}
   m_SizeDelta: {x: 128.8127, y: 64.0475}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1168278103
@@ -2624,6 +4367,82 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1218658424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1218658425}
+  - component: {fileID: 1218658427}
+  - component: {fileID: 1218658426}
+  m_Layer: 5
+  m_Name: blackout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1218658425
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218658424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1303092737}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1218658426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218658424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1218658427
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218658424}
+  m_CullTransparentMesh: 1
 --- !u!1 &1261009087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,7 +4539,6 @@ MonoBehaviour:
   player1UI: {fileID: 142548080}
   player2UI: {fileID: 1168278103}
   dialogue: {fileID: 153381622}
-  background: {fileID: 1559205109}
   groundRend:
   - {fileID: 834767709}
   - {fileID: 1055428849}
@@ -2738,11 +4556,11 @@ MonoBehaviour:
     - That was dirty...
     - You'll leave yourself open attacking like that!
   - reactionLines:
-    - Ouch!
-    - "That wasn\u2019t fair\u2026"
-    - "You\u2019re hitting too hard!"
-    - Be careful!
-    - "Don\u2019t hit me for real!"
+    - Gr....
+    - You'll regret this
+    - Owch!
+    - That's the last hit you'll land
+    - lucky shot
   p2reactions:
   - reactionLines:
     - "Grrr\u2026!!!"
@@ -2756,47 +4574,58 @@ MonoBehaviour:
     - Grrrr...
     - HEY-! No fair!
   - reactionLines:
-    - They teach you that move in school?
-    - Cmon, hit me for real!
+    - I let you hit me that time
+    - Ha! You missed!
     - Grrrr...
-    - HEY-! No fair!
+    - You won't win this!
+  tutorialPrompt: {fileID: 1076230434}
   p1Idle:
   - {fileID: 21300000, guid: 99341e3657f3598428fe2df87da671e6, type: 3}
-  - {fileID: 21300000, guid: 3075a65cdebe2f74c9e0ed193df925a0, type: 3}
-  - {fileID: 21300000, guid: 4ad1c9a64698f6148b552a725c31076d, type: 3}
+  - {fileID: 21300000, guid: 7398c2ce2f709604ba747f59efc0fa36, type: 3}
+  - {fileID: 21300000, guid: ec35a726669a42c42a2314ddb90cf998, type: 3}
   p1Attack:
   - {fileID: 21300000, guid: 5dff6c83dd02d354ea98192e6212b8d3, type: 3}
-  - {fileID: 21300000, guid: 3075a65cdebe2f74c9e0ed193df925a0, type: 3}
+  - {fileID: 21300000, guid: 083e343f0f5eb9c4e957a9bc7e064a08, type: 3}
   - {fileID: 21300000, guid: 4ad1c9a64698f6148b552a725c31076d, type: 3}
   p1Hurt:
   - {fileID: 21300000, guid: 010828c9951759d4e903c8e71a1104d0, type: 3}
   - {fileID: 21300000, guid: 825970f5064d92343ae6828cdc9df60d, type: 3}
   - {fileID: 21300000, guid: ef99aa79e23f5df4aa39501d1fc16052, type: 3}
   p2Idle:
-  - {fileID: 21300000, guid: fb574bd70fdb9874681aea1fb696be58, type: 3}
-  - {fileID: 21300000, guid: 280451569b5fd6f48a538a0b0dd4fe12, type: 3}
-  - {fileID: 21300000, guid: c88bf52a6f88ccf429c59b78f813393c, type: 3}
+  - {fileID: 21300000, guid: 9e4a52a95db5bc742826f29fcdb2e270, type: 3}
+  - {fileID: 21300000, guid: 8624ac6277b848c4d86155824b88aa1e, type: 3}
+  - {fileID: 21300000, guid: d9ac7ba15563a224bb2b5e7e9288a2f9, type: 3}
   p2Attack:
-  - {fileID: 21300000, guid: 6d3ef7527c99bdf49b9495a4d54301f3, type: 3}
-  - {fileID: 21300000, guid: b6591fd3b3e8ba34aadef529605b96ef, type: 3}
-  - {fileID: 21300000, guid: fe9e90ab530ac8e44b9de473e1c2f719, type: 3}
+  - {fileID: 21300000, guid: ac5e9815a670d6c4082d5579a8707476, type: 3}
+  - {fileID: 21300000, guid: 03c5897cd23b1cf40aa31dc9eaaedb8c, type: 3}
+  - {fileID: 21300000, guid: d12ecc74a9e1680439e5f40d0837ca0b, type: 3}
   p2Hurt:
-  - {fileID: 21300000, guid: 0f5b852cc0f930048b38468786e0ce41, type: 3}
-  - {fileID: 21300000, guid: 6a462b3613a40b04989695787905834c, type: 3}
-  - {fileID: 21300000, guid: 8edecfec3372eab44b1c4978402e77a4, type: 3}
+  - {fileID: 21300000, guid: 362b5626e6cf44d4293dd9b23b17d83e, type: 3}
+  - {fileID: 21300000, guid: 89e3bf2b5d9f079489fb12ad069de89b, type: 3}
+  - {fileID: 21300000, guid: 570879cb87fc72f40b1806536beb7448, type: 3}
   swords:
   - {fileID: 21300000, guid: 7ff194f2f960bd844bc5f64b122e96fb, type: 3}
   - {fileID: 21300000, guid: 72727c5ff9d9f084b8b8e01aafa773fc, type: 3}
   - {fileID: 21300000, guid: 8fc8859ce817cd64dbb3896101422038, type: 3}
-  backgroundSprites:
-  - {fileID: 21300000, guid: 4e6e68608546a9141a9692e9784b6a2f, type: 3}
-  - {fileID: 21300000, guid: d1a2b4b7f165d3c45809f043a3d838da, type: 3}
-  - {fileID: 21300000, guid: da802062023ac5146b5cf1ef464d4d6b, type: 3}
   grounds:
   - {fileID: 21300000, guid: 9deeb90663301b247bc0d8ed5157eeb1, type: 3}
   - {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
   - {fileID: 21300000, guid: 99049bd812ab0494d99c447d598ec18c, type: 3}
   fighting: 0
+  playerSpeeds:
+  - 90
+  - 120
+  playerJumps:
+  - 3
+  - 2
+  pauseMenu: {fileID: 1303092736}
+  resumeButton: {fileID: 95183677}
+  paused: 0
+  musicSource: {fileID: 519420034}
+  music2: {fileID: 8300000, guid: 2e54083b1cc071e4faae5769b4c8b1c2, type: 3}
+  music3: {fileID: 8300000, guid: 053839879c8ad9b43bb58e7cbf5c89b7, type: 3}
+  volume2: 0.085
+  volume3: 0.13
 --- !u!1001 &1292074743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2838,7 +4667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4204688716514165450, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_text
-      value: You're so lame and uncool...
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5106395987621250379, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2939,6 +4768,48 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7700032470896975218, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
   m_PrefabInstance: {fileID: 1292074743}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1303092736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303092737}
+  m_Layer: 5
+  m_Name: pauseMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1303092737
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303092736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1218658425}
+  - {fileID: 95183678}
+  - {fileID: 2112746546}
+  - {fileID: 1751366206}
+  - {fileID: 2009431892}
+  - {fileID: 1613709999}
+  m_Father: {fileID: 1331239314}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1331239310
 GameObject:
   m_ObjectHideFlags: 0
@@ -3031,9 +4902,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 142548079}
-  - {fileID: 1168278102}
+  - {fileID: 1031677531}
   - {fileID: 153381621}
+  - {fileID: 918582500}
+  - {fileID: 1303092737}
+  - {fileID: 1021830048}
+  - {fileID: 454190348}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3042,6 +4916,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1389071853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389071854}
+  - component: {fileID: 1389071856}
+  - component: {fileID: 1389071855}
+  m_Layer: 5
+  m_Name: shine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1389071854
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389071853}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3379188, w: 0.9411753}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 95183678}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 69, y: 16}
+  m_SizeDelta: {x: 31.4832, y: 150.9648}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1389071855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389071853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.14901961}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1389071856
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389071853}
+  m_CullTransparentMesh: 1
 --- !u!1 &1559205107
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,6 +5087,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1613709998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613709999}
+  - component: {fileID: 1613710001}
+  - component: {fileID: 1613710000}
+  m_Layer: 5
+  m_Name: left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1613709999
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613709998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.1629024, y: 3.1629024, z: 3.1629024}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1303092737}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -237, y: -41}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1613710000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613709998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 973250c85f02dcb41bf239bb182c6524, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1613710001
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613709998}
+  m_CullTransparentMesh: 1
 --- !u!114 &1668598631 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8490932673925275694, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
@@ -3148,6 +5174,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1709271159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1709271160}
+  - component: {fileID: 1709271162}
+  - component: {fileID: 1709271161}
+  m_Layer: 5
+  m_Name: shine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1709271160
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709271159}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3379188, w: 0.9411753}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2112746546}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 162, y: 16}
+  m_SizeDelta: {x: 31.4832, y: 150.9648}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1709271161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709271159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1709271162
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709271159}
+  m_CullTransparentMesh: 1
 --- !u!225 &1724502492 stripped
 CanvasGroup:
   m_CorrespondingSourceObject: {fileID: 8953275908936584592, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
@@ -3237,6 +5339,141 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1751366205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1751366206}
+  - component: {fileID: 1751366208}
+  - component: {fileID: 1751366207}
+  m_Layer: 5
+  m_Name: pauseText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1751366206
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751366205}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1303092737}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 114}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1751366207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751366205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: PAUSED
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2988738a07fce154da3d6cb6b1159e20, type: 2}
+  m_sharedMaterial: {fileID: -1983427121366218288, guid: 2988738a07fce154da3d6cb6b1159e20, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 55.48
+  m_fontSizeBase: 55.48
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1751366208
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751366205}
+  m_CullTransparentMesh: 1
 --- !u!1 &1834179896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3419,71 +5656,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854693709}
   m_CullTransparentMesh: 1
---- !u!1001 &1858361205
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424425, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424426, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 99341e3657f3598428fe2df87da671e6, type: 3}
-    - target: {fileID: 3066801382431424429, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_Name
-      value: player1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066801382431424429, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d5f1d1e96bfb3614eb35eff22b20111d, type: 3}
 --- !u!1 &1890217396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3535,15 +5707,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 0b1302868bd87b444b6940e2a96c7203, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3594,7 +5766,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3611,7 +5783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.27450982, b: 1, a: 1}
+  m_Color: {r: 0.30860624, g: 0.4699138, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3796,6 +5968,82 @@ Transform:
   m_Father: {fileID: 1261009089}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2009431891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009431892}
+  - component: {fileID: 2009431894}
+  - component: {fileID: 2009431893}
+  m_Layer: 5
+  m_Name: right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2009431892
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009431891}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.1629024, y: 3.1629024, z: 3.1629024}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1303092737}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 236, y: -40.99999}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2009431893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009431891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e74462683c82b9346b487dfb7f964b04, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2009431894
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009431891}
+  m_CullTransparentMesh: 1
 --- !u!1 &2081657486
 GameObject:
   m_ObjectHideFlags: 0
@@ -3931,6 +6179,248 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081657486}
   m_CullTransparentMesh: 1
+--- !u!1 &2088086263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2088086264}
+  - component: {fileID: 2088086266}
+  - component: {fileID: 2088086265}
+  m_Layer: 5
+  m_Name: shine (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2088086264
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088086263}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3379188, w: 0.9411753}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2112746546}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 39.5}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -49, y: 8.4726}
+  m_SizeDelta: {x: 4.8431, y: 150.9648}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2088086265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088086263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2088086266
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088086263}
+  m_CullTransparentMesh: 1
+--- !u!1 &2112746545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112746546}
+  - component: {fileID: 2112746551}
+  - component: {fileID: 2112746550}
+  - component: {fileID: 2112746549}
+  - component: {fileID: 2112746548}
+  - component: {fileID: 2112746547}
+  m_Layer: 5
+  m_Name: main menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2112746546
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112746545}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6196687, y: 0.6196687, z: 0.6196687}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 145364300}
+  - {fileID: 1709271160}
+  - {fileID: 2088086264}
+  m_Father: {fileID: 1303092737}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: -67.99999}
+  m_SizeDelta: {x: 233.8922, y: 56.6012}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2112746547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112746545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!114 &2112746548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112746545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.29411766, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
+--- !u!114 &2112746549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112746545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.8117647, g: 0.58431375, b: 0.14117648, a: 1}
+    m_HighlightedColor: {r: 0.9056604, g: 0.73323214, b: 0.3972944, a: 1}
+    m_PressedColor: {r: 0.9811321, g: 0.8855821, b: 0.69882524, a: 1}
+    m_SelectedColor: {r: 0.90588236, g: 0.73333335, b: 0.39607844, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2112746550}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1261009090}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: QuitToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2112746550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112746545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2112746551
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112746545}
+  m_CullTransparentMesh: 1
 --- !u!1001 &7635538421861514187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3978,6 +6468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eli
       objectReference: {fileID: 0}
+    - target: {fileID: 4204688716514165450, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5106395987621250379, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_SizeDelta.x
       value: 89.1164
@@ -3985,6 +6479,10 @@ PrefabInstance:
     - target: {fileID: 5106395987621250379, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -103.19294
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977434825458251620, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7700032470896975218, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_Pivot.x
@@ -4073,7 +6571,7 @@ PrefabInstance:
     - target: {fileID: 8490932673925275694, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: fb574bd70fdb9874681aea1fb696be58, type: 3}
+      objectReference: {fileID: 21300000, guid: 9e4a52a95db5bc742826f29fcdb2e270, type: 3}
     - target: {fileID: 8953275908936584592, guid: 1ab2703b681cc7846bffcfe61b0bea5f, type: 3}
       propertyPath: m_Alpha
       value: 1

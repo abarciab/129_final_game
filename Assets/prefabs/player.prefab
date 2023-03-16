@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2724834261378534031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.407, z: 0}
+  m_LocalPosition: {x: 0, y: -0.514, z: 0}
   m_LocalScale: {x: 0.6239103, y: 0.6239103, z: 0.6239103}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -360,13 +360,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 370062630943714495}
+        m_TargetAssemblyTypeName: PlayerStats, Assembly-CSharp
+        m_MethodName: NextDialogue
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 032488fd-c31c-422b-8384-bcb58c96064e
     m_ActionName: Player/Jump[/Keyboard/space,/XInputControllerWindows/buttonSouth,/XInputControllerWindows1/buttonSouth]
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8507638663359475728}
         m_TargetAssemblyTypeName: PlayerFighting, Assembly-CSharp
-        m_MethodName: PressNormalAttack
+        m_MethodName: SwitchToStabAttack
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -382,7 +394,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8507638663359475728}
         m_TargetAssemblyTypeName: PlayerFighting, Assembly-CSharp
-        m_MethodName: PressHeavyAttack
+        m_MethodName: SwitchToSlashAttack
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -394,38 +406,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 8b33c38f-71a6-4f79-b016-eff883a52822
     m_ActionName: Player/HeavyAttack[/XInputControllerWindows/leftTrigger,/XInputControllerWindows1/leftTrigger]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8507638663359475728}
-        m_TargetAssemblyTypeName: PlayerFighting, Assembly-CSharp
-        m_MethodName: PressStabDefend
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: f725b5c0-e802-4ef7-9e4a-fb5aa4c43295
-    m_ActionName: Player/StabDefend[/XInputControllerWindows/rightShoulder,/XInputControllerWindows1/rightShoulder]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8507638663359475728}
-        m_TargetAssemblyTypeName: PlayerFighting, Assembly-CSharp
-        m_MethodName: PressSlashDefend
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: ac451db9-bd18-4316-ad95-f02983c0f2f0
-    m_ActionName: Player/SlashDefend[/XInputControllerWindows/leftShoulder,/XInputControllerWindows1/leftShoulder]
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8507638663359475728}
@@ -458,6 +438,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b56f8672-52b9-47cc-a2d6-a5459ce22d48
     m_ActionName: Player/Dash[/XInputControllerWindows/buttonWest,/XInputControllerWindows1/buttonWest]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8507638663359475728}
+        m_TargetAssemblyTypeName: PlayerFighting, Assembly-CSharp
+        m_MethodName: PressDashAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 0f4f4107-6013-44ac-95a9-93082738e279
+    m_ActionName: Player/DashAttack[/XInputControllerWindows/buttonNorth,/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 370062630943714495}
+        m_TargetAssemblyTypeName: PlayerStats, Assembly-CSharp
+        m_MethodName: PressPause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1bb309b5-0745-4b49-844d-74b65971ef08
+    m_ActionName: Player/Pause[/XInputControllerWindows/start,/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -475,21 +487,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea218a84fe648024cb31edae75e36776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 70
   friction: 0.05
   maxSpeed: 8
+  speed: 70
   groundCheckOffset: {x: 0, y: -0.43}
   groundCheckRadius: 0.1
-  jumpForce: 10
   jumpInputWindow: 1
-  maxJumpSpeed: 15
   maxJumpUpTime: 0.14
+  jumpForce: 10
+  maxJumpSpeed: 15
   groundTag: Ground
   stopped: 0
   dashSpeed: 20
   dashTime: 0.1
   dashCooldown: 0.5
   canDash: 0
+  dashing: 0
   source: {fileID: 7167733333193577161}
   footstep: 1
   land: 0
@@ -508,7 +521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   swordAnim: {fileID: 7950936458458329513}
   attackRadius: 0.7
-  heavyAttackRadius: 0.7
+  heavyAttackRadius: 0.91
   normalAttackDmg: 1
   heavyAttackdmg: 1
   attackCooldown: 0.3
@@ -517,7 +530,13 @@ MonoBehaviour:
   switchStunTime: 0.1
   drawGizmos: 0
   attackPoint: {fileID: 261414153322026537}
-  stabDefend: 0
+  dashAttackEnabled: 0
+  DAcheckRadius: 0.79
+  extraDashTime: 0.35
+  dashAttackStunTime: 0.35
+  DAattackPoint: {x: 0.01, y: 0, z: 0}
+  showDAcircle: 0
+  stance: 0
   miss: 4
   hit: 2
   defend: 5
@@ -541,10 +560,12 @@ MonoBehaviour:
   sRend: {fileID: 5936478664527179605}
   knockBack: {x: -1.5, y: 0.5, z: 0}
   reactionText: {fileID: 2300412005119476496}
+  swordSrend: {fileID: 2660069495972139690}
   reactions: []
   idleSprite: {fileID: 0}
   attackSprite: {fileID: 0}
   hurtSprite: {fileID: 0}
+  swordSprite: {fileID: 0}
   hurt: 3
 --- !u!1 &3430836490694181847
 GameObject:
@@ -565,7 +586,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2897494962159033615
 RectTransform:
   m_ObjectHideFlags: 0
